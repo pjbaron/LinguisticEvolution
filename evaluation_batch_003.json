@@ -1,0 +1,162 @@
+[
+  {
+    "index": 1,
+    "domain": "logic",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The strategic information elimination principle in multi-modal reasoning is relatively novel. The paradox of comprehensive preservation undermining reasoning is insightful.",
+      "testable": 6,
+      "testable_reasoning": "Testable through formal logic implementations and computational experiments comparing premise retention strategies, though somewhat abstract.",
+      "significant": 6,
+      "significant_reasoning": "Significant for multi-modal AI systems and formal reasoning, but primarily methodological rather than foundational.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear, well-structured argument about premise management across modal contexts.",
+      "final_score": 100,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "metaphysics",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "This is essentially Hegelian/idealist philosophy (absolute spirit, self-knowledge through finitude). Not novel in metaphysical tradition.",
+      "testable": 1,
+      "testable_reasoning": "Pure speculative metaphysics with no empirical predictions or testable implications.",
+      "significant": 4,
+      "significant_reasoning": "Philosophically interesting but rehashes classical idealism without advancing the discourse substantially.",
+      "coherent": 8,
+      "coherent_reasoning": "Logically coherent within its idealist framework, though relies on unprovable premises.",
+      "final_score": 51,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "aesthetics",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "Kreuzberg's framework connecting temporal accumulation with utility is somewhat novel, though process philosophy exists. The 'patina aesthetic' is creative.",
+      "testable": 4,
+      "testable_reasoning": "Difficult to test objectively. Could study aesthetic judgments empirically, but core claims about beauty-through-use are largely subjective.",
+      "significant": 5,
+      "significant_reasoning": "Interesting for design philosophy and material culture studies, but limited broader impact.",
+      "coherent": 9,
+      "coherent_reasoning": "Excellent structure connecting temporality, function, and aesthetics with clear ethical implications.",
+      "final_score": 76,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "chemistry",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "Spin-orbit coupling from platinum at bimetallic interfaces for selectivity control is sophisticated. The quantitative design framework adds novelty.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through catalyst synthesis, spectroscopy, computational modeling, and reaction selectivity measurements.",
+      "significant": 7,
+      "significant_reasoning": "Practically significant for catalyst design in fine chemical synthesis and pharmaceuticals.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear mechanism with systematic electronic control principles and design guidelines.",
+      "final_score": 113,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "ethics",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The critique of over-sophisticated ethics paralyzing action echoes virtue ethics and pragmatist traditions. Not particularly novel.",
+      "testable": 3,
+      "testable_reasoning": "Could study decision-making in ethical dilemmas, but core claims about theory-practice gap are difficult to test systematically.",
+      "significant": 5,
+      "significant_reasoning": "Important methodological point for applied ethics, but represents familiar meta-ethical concerns.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-argued critique though ends mid-sentence. Logic is sound.",
+      "final_score": 67,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "computer science",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "Bio-inspired hierarchical consensus is not entirely new, but the specific fish-schooling pattern application shows creativity.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through distributed systems simulations, Byzantine fault injection, and performance benchmarking.",
+      "significant": 6,
+      "significant_reasoning": "Useful for scalable consensus but faces known tradeoffs. Incremental improvement rather than breakthrough.",
+      "coherent": 7,
+      "coherent_reasoning": "Generally coherent but ends mid-sentence. The attack surface analysis shows good critical thinking.",
+      "final_score": 91,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "philosophy",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "The is-ought problem and grounding challenge for secular ethics is classical philosophy. No new resolution offered.",
+      "testable": 2,
+      "testable_reasoning": "Primarily conceptual analysis. Limited empirical testability.",
+      "significant": 5,
+      "significant_reasoning": "Important philosophical problem but this is restatement rather than advance.",
+      "coherent": 8,
+      "coherent_reasoning": "Clear articulation of the demystification dilemma, though ends mid-sentence.",
+      "final_score": 55,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "biology",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The Demodocus protein as molecular memory integrator in cephalopods is highly specific and novel. Kinetic ratcheting mechanism is creative.",
+      "testable": 7,
+      "testable_reasoning": "Testable through molecular biology, structural studies, and behavioral experiments, though technically demanding.",
+      "significant": 7,
+      "significant_reasoning": "Significant for understanding cephalopod cognition and convergent evolution of memory systems.",
+      "coherent": 9,
+      "coherent_reasoning": "Excellent integration of molecular mechanism with cognitive function and evolutionary implications.",
+      "final_score": 113,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "aesthetics",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Aesthetic distance and the sublime are classical concepts (Kant, Burke). The critique of immediacy echoes longstanding aesthetic theory.",
+      "testable": 3,
+      "testable_reasoning": "Difficult to test empirically. Could study viewer responses but core phenomenological claims resist quantification.",
+      "significant": 5,
+      "significant_reasoning": "Important for aesthetic theory but represents established positions in philosophy of art.",
+      "coherent": 9,
+      "coherent_reasoning": "Very clear articulation of the role of distance in sublime experience.",
+      "final_score": 68,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "computer science",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific critique that DHTs distribute data but not computation is insightful, distinguishing them clearly from MapReduce-style systems.",
+      "testable": 8,
+      "testable_reasoning": "Testable through DHT performance analysis with complex queries and comparison to distributed computing frameworks.",
+      "significant": 6,
+      "significant_reasoning": "Useful architectural insight for distributed systems design, clarifies DHT limitations.",
+      "coherent": 8,
+      "coherent_reasoning": "Clear analysis though ends mid-sentence. The distinction between storage and computation distribution is well-articulated.",
+      "final_score": 98,
+      "max_possible": 150
+    }
+  }
+]
