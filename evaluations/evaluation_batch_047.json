@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "psychology",
+    "timestamp": "2025-10-30T08:14:48.685892",
+    "proposition": "Procedural memory formation depends on coordinated activity between visual cortex, hippocampus, and striatum. We propose that structured visual exposure to crystalline minerals can strengthen these neural circuits...",
+    "evaluation": {
+      "novel": 3,
+      "novel_reasoning": "The claim that looking at crystals enhances procedural memory through visual pattern processing is highly speculative and appears to lack basis in established neuroscience. The passive observation claim contradicts understanding of procedural learning which requires active motor engagement.",
+      "testable": 6,
+      "testable_reasoning": "Can test through fMRI studies and behavioral experiments as proposed. However, the hypothesis is sufficiently implausible that negative results would be expected. Still technically testable with right equipment.",
+      "significant": 2,
+      "significant_reasoning": "If validated, would be significant for cognitive rehabilitation. However, the mechanism is implausible and lacks grounding in established procedural memory research which emphasizes motor practice.",
+      "coherent": 5,
+      "coherent_reasoning": "Internally coherent argument but builds on questionable premise that passive visual exposure to geometric patterns can enhance procedural learning normally acquired through motor practice.",
+      "final_score": 58,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "aesthetics",
+    "timestamp": "2025-10-30T08:14:54.539070",
+    "proposition": "Post-colonial textile artists have discovered in ramie fiber a material whose physical properties mirror their conceptual concerns. Ramie inherently resists uniform dye absorption...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific connection between ramie's material resistance to dye and post-colonial resistance to cultural homogenization is creative. The concept of material as co-author and substrate-level political engagement offers fresh aesthetic perspective.",
+      "testable": 5,
+      "testable_reasoning": "Can test ramie's dyeing properties and document artistic practices. However, the aesthetic and political interpretations involve subjective judgments that resist objective validation.",
+      "significant": 5,
+      "significant_reasoning": "Interesting for art theory and material aesthetics. Offers framework for understanding politically engaged art. Impact primarily within art criticism and post-colonial studies.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-articulated aesthetic argument with clear progression from material properties to artistic meaning to broader implications for politically engaged art.",
+      "final_score": 87,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "logic",
+    "timestamp": "2025-10-30T08:14:59.357524",
+    "proposition": "Modal operators reveal a fundamental asymmetry between abstract and concrete objects that undermines classical modal logic's universal applicability...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The indexicality of physical properties and critique of uniform possible-worlds semantics is discussed in modal logic and metaphysics. The specific emphasis on context-sensitivity offers useful critique but builds on established concerns.",
+      "testable": 4,
+      "testable_reasoning": "Formal logical arguments can be evaluated for validity but the broader metaphysical claims about abstract vs concrete objects resist empirical testing. Can assess logical coherence and philosophical implications.",
+      "significant": 6,
+      "significant_reasoning": "Important for modal logic and metaphysics. The critique has implications for how modal reasoning is applied to physical phenomena. Primarily significant within philosophy.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured logical argument with clear identification of the problem and proposed solutions (domain-restricted or context-sensitive systems).",
+      "final_score": 83,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "linguistics",
+    "timestamp": "2025-10-30T08:15:05.467840",
+    "proposition": "Germanic dialects contain an overlooked diagnostic feature: words with complex consonant clusters like 'rhubarb' reliably distinguish native from non-native speakers through involuntary articulatory patterns...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific claim about micro-hesitations and physiological markers in complex consonant clusters is interesting. While shibboleths are well-studied, the emphasis on involuntary articulatory responses offers fresh perspective.",
+      "testable": 7,
+      "testable_reasoning": "Testable through acoustic phonetic analysis, articulatory phonology studies, and comparison of native vs non-native speakers. Can measure hesitations, vocal adjustments, and respiratory patterns.",
+      "significant": 4,
+      "significant_reasoning": "Interesting for phonetics and sociolinguistics but offers limited practical application beyond existing diagnostic methods. The emphasis on embodiment is conceptually interesting.",
+      "coherent": 8,
+      "coherent_reasoning": "Clear linguistic argument about articulatory conditioning and native competence. The claim about unconscious markers is well-articulated.",
+      "final_score": 85,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "chemistry",
+    "timestamp": "2025-10-30T08:15:10.493756",
+    "proposition": "Transition metal complex crystals with irregular surfaces can be transformed into crystals with smooth, well-defined faces through controlled ligand exchange at the crystal-solution interface...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "Surface-selective ligand exchange for morphological reconstruction while preserving bulk structure is innovative. The approach offers advantages over conventional recrystallization and addresses specific need in coordination chemistry.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through controlled ligand exchange experiments, surface characterization techniques, X-ray crystallography, and catalytic performance studies. Clear experimental protocols are outlined.",
+      "significant": 7,
+      "significant_reasoning": "Important for materials chemistry, heterogeneous catalysis, and crystallography. Could improve both fundamental studies and practical applications. Addresses real technical challenge.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured chemical proposition with clear mechanism, experimental requirements, and applications. Logical progression from method to advantages to applications.",
+      "final_score": 115,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T08:15:15.528958",
+    "proposition": "The decline of interfaith dialogue in pluralistic democracies creates a structural vulnerability that political elites exploit to capture religious communities as partisan instruments...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of interfaith dialogue as democratic infrastructure and religious political capture is discussed in political theory. The specific mechanism of fragmentation enabling manipulation offers useful framework but builds on existing concerns.",
+      "testable": 5,
+      "testable_reasoning": "Can study through analysis of interfaith engagement, political polarization, religious voting patterns, and historical comparisons. However, establishing causality is challenging given multiple confounding factors.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding religion in democracy and political polarization. Has implications for democratic health. However, offers normative argument more than empirical framework.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured political argument with clear progression from fragmentation to manipulation to corruption. Ends mid-sentence but core mechanism is well-articulated.",
+      "final_score": 84,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "mathematics",
+    "timestamp": "2025-10-30T08:15:20.630367",
+    "proposition": "The orthogonal group O(n) consists of all n×n matrices satisfying O^T O = I, which forces det(O) = ±1...",
+    "evaluation": {
+      "novel": 2,
+      "novel_reasoning": "This is standard material in linear algebra and Lie theory. The two-component structure of O(n) and the topological obstruction preventing continuous paths between components is well-established mathematics.",
+      "testable": 9,
+      "testable_reasoning": "The mathematical claims are rigorously provable using established techniques from topology and linear algebra. Can be verified through formal proof and computational examples.",
+      "significant": 3,
+      "significant_reasoning": "Important foundational mathematics but well-known result in linear algebra courses. Educational value but not advancing mathematical knowledge.",
+      "coherent": 10,
+      "coherent_reasoning": "Perfectly clear mathematical exposition with rigorous logical structure. Well-articulated connection between determinant, topology, and geometric transformations.",
+      "final_score": 58,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "ethics",
+    "timestamp": "2025-10-30T08:15:25.444922",
+    "proposition": "Extracting minerals from fossil-bearing deposits violates intergenerational justice by creating irreversible asymmetries...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific application of intergenerational justice to fossil preservation and concept of epistemic injustice is well-articulated. The temporal colonization framing offers fresh perspective on environmental ethics.",
+      "testable": 3,
+      "testable_reasoning": "Normative ethical argument that resists empirical testing. Can evaluate logical structure and compare ethical frameworks, but cannot scientifically validate justice claims.",
+      "significant": 5,
+      "significant_reasoning": "Important for environmental ethics and resource management. Has policy implications for paleontological site protection. However, remains within normative ethics domain.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured ethical argument with clear progression from irreversibility to epistemic injustice to stewardship obligations.",
+      "final_score": 75,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "philosophy",
+    "timestamp": "2025-10-30T08:15:31.173498",
+    "proposition": "Hair removal creates a phenomenological rupture in our pre-reflective bodily experience, splitting consciousness between feeling subject and observing witness...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The phenomenological analysis of bodily estrangement through depilation is creative. However, builds heavily on established phenomenology of embodiment (Merleau-Ponty). The mundane example is fresh application.",
+      "testable": 2,
+      "testable_reasoning": "Phenomenological philosophical argument that resists empirical testing. Can be evaluated for phenomenological accuracy and theoretical coherence but not scientifically validated.",
+      "significant": 3,
+      "significant_reasoning": "Interesting philosophical exercise but limited significance. Offers illustration of phenomenological concepts without advancing philosophical understanding substantially.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-articulated phenomenological analysis with clear progression from sensory estrangement to identity fragility to embodied selfhood.",
+      "final_score": 58,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "linguistics",
+    "timestamp": "2025-10-30T08:15:35.997781",
+    "proposition": "Pidgins maintain greater phonological transparency than creoles due to fundamentally different communicative pressures...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The transparency-opacity distinction between pidgins and creoles is discussed in linguistics. The specific mechanistic explanation emphasizing communicative pressure and grammatical scaffolding offers useful synthesis.",
+      "testable": 7,
+      "testable_reasoning": "Testable through comparative phonological analysis of pidgins and creoles, syllable structure complexity studies, and analysis of acquisition patterns. Clear predictions about systematic differences.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding creole genesis and language evolution. Offers framework for predicting phonological development. Primarily significant within linguistics.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured linguistic argument with clear mechanistic explanation of pidgin-creole phonological differences and underlying communicative principles.",
+      "final_score": 88,
+      "max_possible": 150
+    }
+  }
+]
