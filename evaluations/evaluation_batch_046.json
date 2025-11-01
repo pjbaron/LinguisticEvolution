@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "economics",
+    "timestamp": "2025-10-30T08:06:21.540652",
+    "proposition": "Market downturns create systematic conditions that permanently shift competitive landscapes toward oligopolistic structures through a predictable three-phase mechanism...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "While crisis-driven consolidation is studied in economics, the systematic three-phase mechanism and emphasis on the recovery phase as most vulnerable offers useful framework. The pro-cyclical nature of antitrust enforcement is well-articulated.",
+      "testable": 7,
+      "testable_reasoning": "Testable through analysis of market concentration during downturns, antitrust enforcement patterns, and long-term industry structure evolution. Historical data from multiple crises can validate the mechanism.",
+      "significant": 7,
+      "significant_reasoning": "Important for understanding market concentration and has clear policy implications for antitrust timing. The insight about recovery phase vulnerability is valuable for regulatory strategy.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured economic argument with clear three-phase progression. Ends mid-sentence but core mechanism is well-developed.",
+      "final_score": 104,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "ethics",
+    "timestamp": "2025-10-30T08:06:26.976328",
+    "proposition": "Democratic governance creates an ethical duty for public officials to maintain dignified communication because respectful discourse is foundational to democratic legitimacy...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The connection between dignified communication and democratic legitimacy is discussed in political ethics. The systematic analysis of three democratic functions and feedback loops offers clarity but builds on existing discourse ethics.",
+      "testable": 5,
+      "testable_reasoning": "Can study through analysis of communication norms, trust metrics, and civic participation. However, normative claims about ethical duties resist empirical testing. Some behavioral predictions are testable.",
+      "significant": 6,
+      "significant_reasoning": "Relevant for understanding political discourse and democratic norms. Has practical implications for accountability. However, offers more normative argument than empirical framework.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured ethical argument with clear progression from democratic functions to feedback loops to accountability.",
+      "final_score": 87,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "geology",
+    "timestamp": "2025-10-30T08:06:35.927345",
+    "proposition": "Upper Cretaceous organic-rich formations display a systematic relationship between high organic carbon content and heavy mineral assemblages dominated by chemically stable phases...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific climate-weathering feedback mechanism connecting stable heavy minerals to source rock quality is innovative. The quantitative framework using heavy mineral ratios as weathering proxies offers useful exploration tool.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through heavy mineral analysis, geochemical correlation studies, and sequence stratigraphic analysis. The predictions about temporal offsets can be validated in multiple basins.",
+      "significant": 7,
+      "significant_reasoning": "Important for petroleum exploration and understanding Cretaceous source rocks. The rapid screening methodology has practical value. Builds on established geochemistry but offers novel application.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured geological argument with clear mechanistic progression from weathering to nutrient delivery to organic preservation. Ends mid-sentence but framework is well-articulated.",
+      "final_score": 107,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "anthropology",
+    "timestamp": "2025-10-30T08:06:41.771319",
+    "proposition": "The Wayne cultural complex of pre-Columbian Mesoamerica developed specialized ceremonial spaces called 'dismals' that transformed individual grief into collective ritual performances...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "While mortuary ritual as social control is studied in anthropology, the specific concept of 'dismals' and the systematic analysis of how grief rituals reinforce hierarchy offers fresh perspective if this cultural complex exists.",
+      "testable": 6,
+      "testable_reasoning": "Can test through archaeological evidence, spatial analysis of ceremonial structures, and comparative mortuary studies. However, without knowing if the Wayne complex is real or documented, testability is uncertain.",
+      "significant": 5,
+      "significant_reasoning": "Potentially interesting for understanding Mesoamerican social organization. However, significance depends on whether this cultural complex is real or hypothetical.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured anthropological argument with clear analysis of how ritual emotion serves power structures. Logically coherent regardless of empirical status.",
+      "final_score": 90,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "computer science",
+    "timestamp": "2025-10-30T08:06:47.285825",
+    "proposition": "Hierarchical dependency relationships in distributed systems create computational bottlenecks that propagate through dependency chains, causing cascading failures...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "Four-node architecture for fault tolerance is specific but the principles of dependency isolation and graceful degradation are established in distributed systems. The quantitative analysis of the sweet spot is useful.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through system implementation, failure simulation, performance benchmarking, and comparison with other architectures. Clear predictions about fault tolerance and capacity loss.",
+      "significant": 6,
+      "significant_reasoning": "Useful for distributed system design, particularly for mission-critical applications. The practical guidance is valuable but represents engineering best practices rather than fundamental innovation.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear technical exposition with well-articulated trade-offs and design considerations. Logical progression from problem to solution to limitations.",
+      "final_score": 100,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "philosophy",
+    "timestamp": "2025-10-30T08:06:52.500355",
+    "proposition": "In monotheistic frameworks, the infinite qualitative difference between divine perfection and creaturely finitude makes moral failure structurally inevitable...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The ontological gap between finite and infinite in monotheistic thought is a central theme in theology and philosophy of religion. The specific framing of sin as structural rather than moral is clear but builds on Kierkegaard and theological tradition.",
+      "testable": 2,
+      "testable_reasoning": "Theological and philosophical argument that resists empirical testing. Can be evaluated for internal consistency and theological implications but not scientifically validated.",
+      "significant": 5,
+      "significant_reasoning": "Important for theology and philosophy of religion. Offers framework for understanding sin and grace. However, builds on established theological concepts without major advancement.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured theological argument with clear progression from ontological gap to structural sin to grace as logical response.",
+      "final_score": 68,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "sociology",
+    "timestamp": "2025-10-30T08:06:57.585715",
+    "proposition": "Environmental inequality may perpetuate social stratification through a previously underexplored biological mechanism: differential access to biodiverse natural environments that influence cognitive development via the microbiome-gut-brain axis...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The specific mechanism linking environmental biodiversity access to cognitive development through microbiome is highly innovative. Connects environmental justice to neurodevelopment in novel way that challenges traditional separation of environmental and educational policy.",
+      "testable": 7,
+      "testable_reasoning": "Testable through neuroimaging studies, microbiome analysis, cognitive assessments across communities with varying environmental access. However, controlling for confounding socioeconomic variables is challenging.",
+      "significant": 7,
+      "significant_reasoning": "Could be important for understanding environmental inequality if validated. Has significant policy implications connecting urban planning to cognitive development. Requires substantial empirical support.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned hypothesis connecting environmental access to cognitive outcomes through biological pathway. Some mechanistic details could be more explicit but overall logic is sound.",
+      "final_score": 108,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "biology",
+    "timestamp": "2025-10-30T08:07:02.985520",
+    "proposition": "Pathogenic bacteria in pivot joint infections establish biofilms within synovial membranes, creating a self-perpetuating cycle where the joint's unique rotational mechanics generate protective shear stress patterns...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific mechanism of pivot joint rotational mechanics creating protective shear patterns for biofilms is innovative. The connection between biomechanics and biofilm persistence offers fresh perspective on joint infections.",
+      "testable": 8,
+      "testable_reasoning": "Testable through in vitro biofilm studies under rotational stress, clinical analysis of pivot joint infections, biomechanical modeling, and evaluation of mobilization-based disruption strategies.",
+      "significant": 6,
+      "significant_reasoning": "Important for orthopedic infectious disease if validated. Could inform treatment strategies for difficult joint infections. Impact primarily within specialized clinical area.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned clinical hypothesis with clear mechanistic progression. Ends mid-sentence but core mechanism linking biomechanics to infection is well-articulated.",
+      "final_score": 105,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "geology",
+    "timestamp": "2025-10-30T08:07:08.874361",
+    "proposition": "Mesozoic sedimentary sequences in the Pacific Basin contain volcanic ash layers that underwent syn-depositional hydration to form perlite, creating exceptional archives of explosive volcanism...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The systematic use of perlite layers for volcanic correlation, atmospheric circulation reconstruction, and paleoclimate analysis is innovative. The emphasis on superior preservation in marine environments offers fresh approach.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through geochemical analysis, spatial correlation studies, devitrification analysis, and integration with other paleoclimate proxies. Clear predictions about volcanic-climate linkages.",
+      "significant": 7,
+      "significant_reasoning": "Important for understanding Mesozoic volcanism and climate interactions. Could provide unprecedented temporal resolution for greenhouse Earth conditions. Has implications for volcanic-extinction linkages.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured geological argument with clear progression from preservation to correlation to paleoclimate reconstruction applications.",
+      "final_score": 113,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "geology",
+    "timestamp": "2025-10-30T08:07:14.503785",
+    "proposition": "Grain size controls fault zone architecture by governing how rocks accommodate strain and concentrate stress...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The systematic relationship between grain size and fault zone architecture is studied in structural geology. The specific framework connecting grain size to permeability patterns and fault evolution offers useful synthesis.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through field studies, laboratory deformation experiments, permeability measurements, and microstructural analysis. Clear predictions about fault geometry and evolution.",
+      "significant": 7,
+      "significant_reasoning": "Important for understanding fault mechanics with applications to hydrocarbon migration, earthquake hazards, and geothermal systems. Provides predictive framework for fault properties.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured geological argument with clear mechanistic progression. Ends mid-sentence but framework is well-developed.",
+      "final_score": 107,
+      "max_possible": 150
+    }
+  }
+]
