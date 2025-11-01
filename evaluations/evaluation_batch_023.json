@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "ethics",
+    "timestamp": "2025-10-30T04:46:17.169879",
+    "proposition": "We have a categorical moral duty to minimize phosphorus and nitrogen discharge from industrial processes to prevent aquatic eutrophication, regardless of economic costs...",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "Environmental ethics arguments for categorical duties to prevent ecological harm are well-established. The application to eutrophication is specific but follows familiar deontological frameworks.",
+      "testable": 4,
+      "testable_reasoning": "The moral claim itself isn't empirically testable, though the factual premises about eutrophication can be verified. Policy implementation effects could be studied, but moral categoricity isn't falsifiable.",
+      "significant": 6,
+      "significant_reasoning": "Important environmental ethics question with practical policy implications. However, the categorical stance without cost consideration limits practical applicability and broader philosophical impact.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured ethical argument with clear philosophical foundations. Systematically develops four ethical bases for the categorical duty with logical progression.",
+      "final_score": 71,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "mathematics",
+    "timestamp": "2025-10-30T04:46:22.138632",
+    "proposition": "The curvature-topology correspondence manifests most clearly when one-parameter families of Riemannian metrics approach prescribed curvature bounds but terminate before reaching their targets...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "Framing curvature prescription obstructions as positive topological information and the concept of 'curvature-admissibility regions' offers fresh perspective on the curvature-topology relationship.",
+      "testable": 6,
+      "testable_reasoning": "Testable through mathematical analysis, construction of counterexamples, and investigation of specific manifolds. Primarily theoretical mathematics rather than empirical testing.",
+      "significant": 7,
+      "significant_reasoning": "Important for differential geometry and geometric topology. Could lead to new classification schemes for Riemannian manifolds. Primarily impacts specialized mathematics community.",
+      "coherent": 8,
+      "coherent_reasoning": "Sophisticated mathematical exposition. Ends mid-sentence but core argument about topology constraining curvature is clearly presented with good technical detail.",
+      "final_score": 99,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "neuroscience",
+    "timestamp": "2025-10-30T04:46:27.629182",
+    "proposition": "Cynocrambe alkaloids modulate P-glycoprotein efflux pumps at the blood-brain barrier through substrate-specific conformational changes...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific mechanism of selective flavonoid exclusion through cynocrambe alkaloid-mediated P-glycoprotein modulation is novel. Addresses the underexplored problem of differential flavonoid effects in CNS vs periphery.",
+      "testable": 7,
+      "testable_reasoning": "Testable through pharmacokinetic studies, BBB permeability assays, binding kinetics, in vivo neuroinflammation markers, and flavonoid distribution studies. Requires sophisticated methodology.",
+      "significant": 6,
+      "significant_reasoning": "Could be important for neuroinflammatory diseases if validated. Represents refined pharmacological approach, though clinical translation faces significant challenges and uncertainty.",
+      "coherent": 8,
+      "coherent_reasoning": "Scientifically coherent with clear mechanism and therapeutic rationale. Some complexity in the differential effects argument but overall well-reasoned.",
+      "final_score": 100,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "linguistics",
+    "timestamp": "2025-10-30T04:46:32.736375",
+    "proposition": "Linguistic systems exhibit systematic constraint flexibility when functional demands exceed the expressive capacity of canonical forms...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The concept that constraint violation is grammaticalized and systematic rather than exceptional offers useful perspective, though markedness theory and constraint violation are established topics in linguistics.",
+      "testable": 7,
+      "testable_reasoning": "Testable through corpus analysis, cross-linguistic comparison, experimental studies of marked constructions, and documentation of constraint relaxation patterns. Multiple empirical approaches available.",
+      "significant": 6,
+      "significant_reasoning": "Important for linguistic theory, particularly regarding the nature of grammatical competence. Refines understanding of how grammars handle expressive demands but builds on existing frameworks.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-structured linguistic argument with diverse examples. The progression from observation to theoretical implications is logical, though ends mid-sentence.",
+      "final_score": 98,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "aesthetics",
+    "timestamp": "2025-10-30T04:46:37.845271",
+    "proposition": "Japanese origami embodies an aesthetic paradigm that inverts Western artistic values. Where Western traditions celebrate individual authorship and innovation, origami generates beauty through anonymous, collective knowledge refined across centuries...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Contrast between Eastern collective/traditional and Western individual/innovative artistic values is a familiar theme in comparative aesthetics. The specific application to origami is illustrative rather than novel.",
+      "testable": 4,
+      "testable_reasoning": "Difficult to test empirically. Could study practitioner attitudes and aesthetic responses, but the philosophical claims about aesthetic value and creativity resist empirical validation.",
+      "significant": 5,
+      "significant_reasoning": "Offers valuable perspective for comparative aesthetics and challenges Western-centric art theory. However, impact is somewhat limited by reliance on familiar East-West contrasts.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-articulated aesthetic philosophy with clear development from observation to broader principles. The argument flows logically and is thoughtfully presented.",
+      "final_score": 76,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "philosophy",
+    "timestamp": "2025-10-30T04:46:43.092324",
+    "proposition": "Post-Kantian metaphysics exposes a structural paradox: the systematic pursuit of comprehensive theoretical unity generates proliferating distinctions and refinements that undermine the very coherence they seek to establish...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The paradox of systematicity creating its own incompleteness is discussed in German idealism scholarship, but framing it as 'strategic incompleteness' and 'systematic incompleteness' offers fresh conceptual tools.",
+      "testable": 3,
+      "testable_reasoning": "Philosophical analysis rather than empirical claim. Can be evaluated through examination of philosophical systems and their internal coherence, but not through standard empirical testing.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding post-Kantian philosophy and the nature of systematic thinking. Offers insights for contemporary metaphilosophy but primarily impacts specialized philosophical discourse.",
+      "coherent": 9,
+      "coherent_reasoning": "Sophisticated philosophical argument with clear presentation of the paradox and its implications. Well-structured progression through the dialectic of system and incompleteness.",
+      "final_score": 76,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "logic",
+    "timestamp": "2025-10-30T04:46:48.696327",
+    "proposition": "Hierarchy represents a universal solution to the fundamental problem of organizing complex information systems...",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "Hierarchical organization as a general principle is well-established across multiple domains. The specific parallels drawn are insightful but the core claim about universality is familiar.",
+      "testable": 5,
+      "testable_reasoning": "Can test through comparative analysis of different organizational structures, information theory, and empirical studies of system performance. However, claims about 'universality' and 'optimal solutions' are partly normative.",
+      "significant": 5,
+      "significant_reasoning": "Offers useful synthesis across domains but doesn't fundamentally advance understanding in any single field. The interdisciplinary connections are valuable but somewhat speculative.",
+      "coherent": 8,
+      "coherent_reasoning": "Clear exposition of the hierarchical principle across domains. Logical progression from observation to theoretical implications, though some leaps between domains could be better justified.",
+      "final_score": 72,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "aesthetics",
+    "timestamp": "2025-10-30T04:46:53.904454",
+    "proposition": "Baroque architecture fundamentally redefines ornament from decorative supplement to structural principle...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The claim that Baroque makes ornament structural is familiar in art history, but framing it as 'organizational intelligence' and the concept of 'accumulative visual logic' offers fresh analytical perspective.",
+      "testable": 4,
+      "testable_reasoning": "Art historical analysis rather than empirical testing. Can examine Baroque buildings and theoretical writings, but claims about 'organizational logic' and 'epistemological breakthrough' resist systematic validation.",
+      "significant": 5,
+      "significant_reasoning": "Important for understanding Baroque architecture and ornament theory. Challenges form-function hierarchies but primarily refines existing art historical understanding.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-structured aesthetic argument with clear progression from observation to theoretical claims. Some assertions about 'organizational logic' could be better supported.",
+      "final_score": 74,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "computer science",
+    "timestamp": "2025-10-30T04:46:59.741190",
+    "proposition": "This hash table implementation achieves superior cache performance through a uniform memory layout that combines consistent hashing with fixed-size bucket allocation...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Cache-friendly hash table designs are well-studied. The specific combination of techniques is potentially novel but follows established principles of cache optimization and spatial locality.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through benchmarks, cache performance metrics, comparison with other hash table implementations, and analysis under various workloads. Clear performance claims that can be verified.",
+      "significant": 5,
+      "significant_reasoning": "Useful performance engineering but incremental improvement over existing approaches. Impact limited to specific use cases where tail latency and cache performance are critical.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear technical exposition with well-explained benefits. The connection between design choices and performance outcomes is logically presented.",
+      "final_score": 87,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "psychology",
+    "timestamp": "2025-10-30T04:47:05.607952",
+    "proposition": "Rapid, stream-of-consciousness thinking in therapy often functions as an unconscious avoidance mechanism that prevents genuine therapeutic progress...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Intellectualization and cognitive avoidance in therapy are well-known. The specific framing as 'cognitive depletion' creating a protective barrier offers some fresh perspective but builds on established concepts.",
+      "testable": 6,
+      "testable_reasoning": "Can test through therapy process research, outcome studies comparing pacing interventions, neuropsychological measures of cognitive load, and analysis of therapy session transcripts. Moderate testability.",
+      "significant": 6,
+      "significant_reasoning": "Clinically relevant for improving therapy effectiveness. Offers practical guidance for therapists but refines existing therapeutic knowledge rather than revolutionary insight.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-reasoned clinical theory with clear mechanism and therapeutic implications. The progression from observation to intervention is logical and practical.",
+      "final_score": 91,
+      "max_possible": 150
+    }
+  }
+]

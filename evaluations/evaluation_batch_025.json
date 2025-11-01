@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "mathematics",
+    "timestamp": "2025-10-30T05:04:21.760613",
+    "proposition": "Skull surfaces exhibit fractal geometry where morphological complexity scales predictably across different resolutions...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "Using fractal dimensions as phylogenetic markers is innovative. The claim that fractal signatures persist across morphological transformations offers fresh mathematical approach to evolutionary biology.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through fractal analysis of skull samples, cross-species comparison, and validation of predicted morphological constraints. Computational methods are well-established.",
+      "significant": 7,
+      "significant_reasoning": "Could provide objective quantitative methods for phylogenetic analysis. Bridges mathematics and evolutionary biology in potentially useful ways.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear mathematical framework with well-articulated biological applications. Logical progression from fractal observation to evolutionary implications.",
+      "final_score": 115,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "mathematics",
+    "timestamp": "2025-10-30T05:04:36.425488",
+    "proposition": "The fishbolt number is a 4-dimensional knot invariant defined as the minimum number of irreducible components among all non-orientable surfaces spanning a given knot in a 4-manifold...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The fishbolt number as a 4-dimensional knot invariant focusing on non-orientable surfaces is novel. The approach of using non-orientable surface decomposition to distinguish embeddings is innovative.",
+      "testable": 7,
+      "testable_reasoning": "Testable through mathematical analysis, computation for specific knots, and comparison with existing invariants. Requires sophisticated topology but methods are available.",
+      "significant": 6,
+      "significant_reasoning": "Important for 4-dimensional topology and knot theory. Impact primarily within specialized mathematics community working on higher-dimensional knots.",
+      "coherent": 8,
+      "coherent_reasoning": "Technically precise definition with clear motivation. Some details of the computational framework could be expanded but core concept is well-presented.",
+      "final_score": 102,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "metaphysics",
+    "timestamp": "2025-10-30T05:04:41.802491",
+    "proposition": "Phenomenological reduction reveals a fundamental paradox: the attempt to isolate pure consciousness from temporal flow fails because temporality constitutes the very essence of conscious experience...",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "The paradox of consciousness and temporality is central to Husserl's phenomenology and extensively discussed. This presentation synthesizes known issues rather than introducing new insights.",
+      "testable": 2,
+      "testable_reasoning": "Phenomenological analysis rather than empirical claim. Not testable through standard scientific methods, though can be examined through philosophical analysis.",
+      "significant": 5,
+      "significant_reasoning": "Important for phenomenology and philosophy of consciousness. However, retreads well-established ground in Husserlian philosophy without significant advancement.",
+      "coherent": 9,
+      "coherent_reasoning": "Sophisticated phenomenological argument with clear exposition of the temporal paradox. Well-structured progression from observation to ontological implications, though ends mid-sentence.",
+      "final_score": 56,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "anthropology",
+    "timestamp": "2025-10-30T05:04:47.037170",
+    "proposition": "Among the Rahdaree of highland Papua New Guinea, velaria textiles embody 'portable sovereignty'—territorial authority that travels with objects rather than remaining fixed to locations...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The concept of 'portable sovereignty' through ritual objects is innovative. The analysis of how material culture enables flexible territorial authority challenges Western state-based models effectively.",
+      "testable": 6,
+      "testable_reasoning": "Testable through ethnographic fieldwork, analysis of dispute resolution, and documentation of velaria use. However, some theoretical claims about sovereignty resist direct empirical validation.",
+      "significant": 7,
+      "significant_reasoning": "Important for political anthropology and sovereignty studies. Challenges Western territorial frameworks and reveals alternative governance models.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured anthropological argument with clear ethnographic grounding. Logical development from material object to political theory.",
+      "final_score": 111,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "chemistry",
+    "timestamp": "2025-10-30T05:05:02.088266",
+    "proposition": "In asymmetric hydrogenation, heterobimetallic catalysts achieve superior performance through cooperative substrate activation enabled by electronegativity differences between constituent metals...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "Heterobimetallic catalysis is established, but the specific emphasis on electronegativity differential as design principle and the systematic framework for optimization offers useful refinement.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through catalyst synthesis, electrochemical characterization, catalytic performance assays, and mechanistic studies. Clear predictions amenable to experimental validation.",
+      "significant": 6,
+      "significant_reasoning": "Important for catalysis design with practical applications in asymmetric synthesis. Represents refinement of existing approaches rather than revolutionary advance.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear chemical reasoning with well-articulated mechanism. Logical progression from electronic structure to catalytic performance.",
+      "final_score": 104,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "logic",
+    "timestamp": "2025-10-30T05:05:07.440892",
+    "proposition": "Traditional logical systems rely on binary predicates that classify phenomena as either true or false, but physical experimentation reveals the inadequacy of this approach...",
+    "evaluation": {
+      "novel": 3,
+      "novel_reasoning": "Fuzzy logic and continuous-valued logic systems addressing this issue are well-established. The specific example with kodurite and rapanea is illustrative but not theoretically novel.",
+      "testable": 6,
+      "testable_reasoning": "Can test through implementation of continuous-valued logical systems and comparison with binary logic in experimental contexts. However, the normative claim about what logic 'should' be resists testing.",
+      "significant": 4,
+      "significant_reasoning": "Many-valued logics are already developed for precisely this purpose. The argument for their necessity is familiar and doesn't advance logical theory significantly.",
+      "coherent": 8,
+      "coherent_reasoning": "Clear argument with concrete example. The progression from observation to logical requirement is straightforward though the example is somewhat contrived.",
+      "final_score": 56,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "psychology",
+    "timestamp": "2025-10-30T05:05:14.032146",
+    "proposition": "Organizations create destructive feedback loops when cognitive demands exceed employee capacity...",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "Cognitive overload in organizations is well-studied in industrial-organizational psychology. The framing as 'cognitive capital' and specific mechanisms are clear but not fundamentally novel.",
+      "testable": 7,
+      "testable_reasoning": "Testable through workplace studies, cognitive load measurement, performance metrics, and organizational interventions. Multiple empirical approaches available.",
+      "significant": 5,
+      "significant_reasoning": "Practically important for organizational management and employee wellbeing. However, builds on established occupational health and performance research.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured organizational psychology argument. Clear causal mechanisms and practical implications logically developed.",
+      "final_score": 80,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "biology",
+    "timestamp": "2025-10-30T05:05:24.618520",
+    "proposition": "Biomineralization—the controlled precipitation of inorganic minerals within organic matrices—represents one of evolution's most transformative innovations...",
+    "evaluation": {
+      "novel": 3,
+      "novel_reasoning": "The evolutionary importance of biomineralization is well-established in evolutionary biology. This is a clear synthesis of known information rather than novel insight.",
+      "testable": 7,
+      "testable_reasoning": "Well-supported by fossil record, comparative biology, and materials science. The historical claims about evolutionary impact can be tested through paleontological evidence.",
+      "significant": 6,
+      "significant_reasoning": "Important biological innovation with clear evolutionary significance. However, this is textbook material rather than new research or theory.",
+      "coherent": 9,
+      "coherent_reasoning": "Excellent exposition of biomineralization's evolutionary significance. Clear, logical presentation of how mineralization enabled evolutionary innovations, though ends mid-sentence.",
+      "final_score": 80,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T05:05:30.078792",
+    "proposition": "Post-colonial states face a fundamental legitimacy paradox: they adopt democratic institutions to establish indigenous authority, yet these institutions often collapse precisely when legitimacy is most needed...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The temporal mismatch between institutional form and social foundation is recognized in democratization literature. The framing as 'procedural legitimacy' offers clarity but builds on existing analysis.",
+      "testable": 6,
+      "testable_reasoning": "Can test through comparative politics, analysis of democratic consolidation, institutional performance studies, and historical case analysis. Some claims resist precise quantification.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding democratization challenges in post-colonial contexts. Relevant for development policy though offers more diagnosis than solution.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured political theory argument with clear identification of the paradox and its mechanisms. Ends mid-sentence but core argument is well-developed.",
+      "final_score": 89,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "economics",
+    "timestamp": "2025-10-30T05:05:36.480694",
+    "proposition": "The comedy labor market exhibits extreme wage volatility due to a fundamental mismatch between highly elastic demand and structurally rigid supply...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "Applying labor economics to comedy markets with specific focus on supply rigidity and career timing effects offers fresh perspective, though similar analyses exist for other entertainment sectors.",
+      "testable": 8,
+      "testable_reasoning": "Testable through analysis of comedian earnings, entry/exit patterns, career timing studies, and economic cycle correlations. Clear predictions amenable to empirical validation.",
+      "significant": 5,
+      "significant_reasoning": "Interesting application of economic theory but limited broader impact. Primarily relevant for understanding entertainment labor markets rather than fundamental economic insights.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear economic argument with well-articulated market failure mechanisms. Logical progression from supply-demand mismatch to career timing implications, though ends mid-sentence.",
+      "final_score": 92,
+      "max_possible": 150
+    }
+  }
+]

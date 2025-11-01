@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "psychology",
+    "timestamp": "2025-10-30T04:27:30.037517",
+    "proposition": "Chronic stress activates ancient neural circuits evolved for immediate physical threats, triggering neurochemical cascades that promote resource competition, territorial defense, and hypervigilance...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The evolutionary mismatch concept for stress responses is well-established in psychobiology. The specific connection between ancient neural circuits and modern stressors has been extensively discussed in the literature on paleolithic adaptation.",
+      "testable": 7,
+      "testable_reasoning": "The proposition makes specific, measurable predictions about neural activation patterns, neurochemical cascades, and behavioral outcomes. These can be tested with neuroimaging, hormone assays, and behavioral studies, though the causal chains are complex.",
+      "significant": 6,
+      "significant_reasoning": "Understanding evolutionary mismatch in stress responses has clinical relevance for anxiety disorders and chronic stress management. The insights about intervention strategies targeting both neurochemical and cognitive levels are valuable but build on existing therapeutic frameworks.",
+      "coherent": 9,
+      "coherent_reasoning": "The proposition presents a clear, logical argument connecting evolutionary biology, neuroscience, and clinical psychology. The text is well-structured though it ends mid-sentence. The reasoning flows logically from premises to therapeutic implications.",
+      "final_score": 98,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "linguistics",
+    "timestamp": "2025-10-30T04:27:36.136597",
+    "proposition": "Scientific vocabularies evolve under selective pressures that directly oppose those governing general language change...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "While the contrast between technical and general language evolution is known, framing it explicitly as opposing selective pressures with specific examples (microsporangium, spermoderm) and the concept of 'protected linguistic environments' offers fresh perspective on register-specific evolution.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through corpus linguistics. Can compare morphological complexity retention rates across registers, track term evolution when moving from technical to popular usage (laboratory→lab example), and measure transparency metrics.",
+      "significant": 6,
+      "significant_reasoning": "Provides important insights into linguistic evolution and register theory, with implications for scientific communication and terminology standards. However, it's more refinement of existing theory than paradigm shift.",
+      "coherent": 9,
+      "coherent_reasoning": "Excellently structured argument with clear examples, logical progression from observation to theory, and ends mid-sentence but the core argument is complete and compelling.",
+      "final_score": 107,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "logic",
+    "timestamp": "2025-10-30T04:27:41.726270",
+    "proposition": "In deontic modal logic systems employing harm-minimization strategies, prohibitive conclusions ('ought not') achieve greater logical accessibility than permissive ones ('ought to')...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The concept of 'semidefensive reasoning structures' and the formal analysis of asymmetry between prohibitions and prescriptions in deontic logic is innovative. Connecting this to precautionary principles provides novel theoretical grounding.",
+      "testable": 6,
+      "testable_reasoning": "Can be tested through formal logical analysis, computational modeling of deontic systems, and empirical studies of moral consensus formation. However, testing real-world applications requires careful operationalization of abstract logical concepts.",
+      "significant": 7,
+      "significant_reasoning": "Offers important insights into moral reasoning architecture and explains patterns in ethical disagreement. Has implications for understanding moral progress and designing ethical frameworks, though practical applications require development.",
+      "coherent": 9,
+      "coherent_reasoning": "Logically rigorous presentation with clear progression from formal logic to moral philosophy. Technical concepts are well-defined and the argument structure is sound.",
+      "final_score": 115,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "psychology",
+    "timestamp": "2025-10-30T04:27:48.097655",
+    "proposition": "Individuals with narcissistic traits who have experienced trauma often develop a distinctive defensive pattern: they compulsively process traumatic memories in ways that preserve cognitive accessibility while systematically eliminating emotional content...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific concept of 'psychologically dehydrated memories' and the detailed mechanism of emotional sterilization in narcissistic trauma processing is innovative, though intellectualization as a defense is well-known.",
+      "testable": 7,
+      "testable_reasoning": "Testable through clinical observation, neuroimaging studies of emotional processing, therapy outcome research, and validated measures of narcissism and trauma processing. The therapeutic predictions are particularly amenable to testing.",
+      "significant": 7,
+      "significant_reasoning": "Clinically significant for understanding treatment resistance in narcissistic presentations. Explains why insight-based interventions often fail and suggests alternative therapeutic approaches. Important for trauma treatment protocols.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured clinical theory with clear mechanistic explanation, logical progression from observation to therapeutic implications, and compelling internal logic.",
+      "final_score": 113,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "neuroscience",
+    "timestamp": "2025-10-30T04:27:54.871640",
+    "proposition": "Oysterroot extract contains polyphenolic compounds that selectively enhance GABA-A receptors with α2/γ3 subunit composition through allosteric modulation...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific mechanism linking oysterroot extract to α2/γ3-selective GABA-A modulation is novel, though selective GABAergic compounds and circuit-specific neuropsychopharmacology are active research areas.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through electrophysiology, receptor binding assays, behavioral pharmacology, and neuroimaging. The specific receptor subunit claims and circuit-level effects can be directly examined with available techniques.",
+      "significant": 7,
+      "significant_reasoning": "If validated, could represent important advance in treating executive dysfunction without sedation. The circuit-specific approach addresses major limitations of current GABAergic drugs. Clinically significant for ADHD, schizophrenia, and cognitive aging.",
+      "coherent": 8,
+      "coherent_reasoning": "Scientifically coherent presentation with clear mechanistic reasoning. Some technical details could be expanded, but the core argument linking molecular mechanism to therapeutic potential is sound.",
+      "final_score": 108,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "economics",
+    "timestamp": "2025-10-30T04:27:59.942448",
+    "proposition": "Human cognitive limitations create systematic market inefficiencies that institutional investors exploit for profit...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Behavioral economics and the exploitation of cognitive biases by sophisticated investors is well-established. The framework synthesizes known concepts rather than introducing fundamentally new ideas.",
+      "testable": 7,
+      "testable_reasoning": "Testable through analysis of trading patterns, market efficiency measures across asset complexity, institutional vs. retail returns, and experimental economics. The relationship between complexity and mispricing can be quantified.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding market structure and financial inequality, with clear regulatory implications. However, builds on existing behavioral finance research rather than opening new theoretical territory.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured economic argument with clear causal chains from cognitive limitations to market outcomes. The progression from observation to policy implications is logical and compelling, though ends mid-sentence.",
+      "final_score": 96,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T04:28:06.594292",
+    "proposition": "Democratic legitimacy rests on four interdependent foundations: popular sovereignty, constitutional constraint, deliberative rationality, and procedural fairness. These foundations assume communities share basic epistemic frameworks...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "While epistemic polarization is discussed in political science, the systematic analysis of how it undermines each foundation of democratic legitimacy and creates 'political incommensurability' offers fresh theoretical insight.",
+      "testable": 6,
+      "testable_reasoning": "Can be tested through surveys of epistemic divergence, analysis of political discourse, studies of institutional trust, and comparative politics. However, measuring 'epistemic polarization' precisely is challenging.",
+      "significant": 8,
+      "significant_reasoning": "Addresses a fundamental challenge to contemporary democracy. The distinction between ideological and epistemic polarization is crucial for understanding democratic crisis. Has important implications for democratic theory and practice.",
+      "coherent": 8,
+      "coherent_reasoning": "Logically structured argument with clear definitions and progression. The analysis of how epistemic polarization undermines democratic foundations is compelling, though the text ends mid-sentence.",
+      "final_score": 110,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "computer science",
+    "timestamp": "2025-10-30T04:28:13.100439",
+    "proposition": "Current Byzantine Fault Tolerance (BFT) protocols treat all anomalous node behavior uniformly, misclassifying resource-constrained honest nodes as malicious actors...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The distinction between resource-constrained honest nodes and malicious actors, with behavioral signatures for differentiation, is innovative. The concept of 'resource-aware BFT' offers fresh perspective on fault tolerance.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through implementation, simulation, and formal verification. Can measure classification accuracy, network performance under various conditions, and compare to traditional BFT protocols with clear metrics.",
+      "significant": 7,
+      "significant_reasoning": "Addresses practical limitations in heterogeneous networks and could improve both security and inclusiveness. Important for real-world distributed systems, though requires validation at scale.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear technical exposition with well-defined problem, solution, and benefits. The argument flows logically from identification of classification error to proposed behavioral monitoring system.",
+      "final_score": 114,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "computer science",
+    "timestamp": "2025-10-30T04:28:18.406328",
+    "proposition": "Distributed systems can enhance fault detection by converting consensus protocol events into acoustic signatures that map system states to unique audio frequencies...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "Acoustic monitoring for distributed systems is highly novel. The concept of sonification for continuous system awareness and leveraging human auditory pattern recognition is creative and underexplored in systems monitoring.",
+      "testable": 8,
+      "testable_reasoning": "Very testable through user studies, fault detection experiments, comparative analysis with visual monitoring, and measurement of operator response times. Success metrics are clear and measurable.",
+      "significant": 5,
+      "significant_reasoning": "Interesting approach with potential niche applications, but scalability and adoption questions limit broader impact. More likely to serve as complementary rather than primary monitoring approach.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned presentation of an unconventional idea. Addresses practical considerations (acoustic design, operator training) though some implementation challenges could be explored more deeply.",
+      "final_score": 104,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "economics",
+    "timestamp": "2025-10-30T04:28:23.427458",
+    "proposition": "In emerging markets, warehouse consolidation creates systematic commodity mispricing through information asymmetries...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "Information asymmetries in commodity markets are well-studied. The specific focus on warehouse operator information advantages and their strategic exploitation offers some fresh perspective but builds on established concepts.",
+      "testable": 7,
+      "testable_reasoning": "Testable through analysis of price patterns, inventory reporting transparency, basis spreads, and market efficiency measures. Regulatory experiments could test transparency interventions, though field studies face data limitations.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding commodity markets in developing economies and has clear policy implications. However, the phenomenon may be limited to specific contexts and commodities.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured economic argument with clear causal mechanisms from information asymmetry to market dysfunction. The progression from problem identification to solution is logical and complete.",
+      "final_score": 99,
+      "max_possible": 150
+    }
+  }
+]

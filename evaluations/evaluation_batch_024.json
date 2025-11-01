@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "computer science",
+    "timestamp": "2025-10-30T04:54:58.776700",
+    "proposition": "The effectiveness of sparsifying transforms in compressed sensing fundamentally depends on the structural alignment between basis functions and signal characteristics...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The importance of basis-signal matching in compressed sensing is well-known. The boxcar wavelet example and adaptive approach are illustrative rather than fundamentally novel.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through signal reconstruction experiments, basis comparison studies, and performance metrics. Can systematically vary signal types and transforms to validate claims.",
+      "significant": 6,
+      "significant_reasoning": "Important for practical compressed sensing applications. The shift from universal to adaptive bases is significant for implementation but builds on established principles.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear technical exposition with good examples. Logical progression from problem to adaptive solution, though ends mid-sentence.",
+      "final_score": 97,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "neuroscience",
+    "timestamp": "2025-10-30T04:55:04.399077",
+    "proposition": "Metacognitive awareness operates through distributed neural networks that function independently of hierarchical executive control systems...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific claim of metacognitive independence from executive systems with distributed network architecture offers fresh perspective, challenging hierarchical models. The lateral connectivity emphasis is innovative.",
+      "testable": 8,
+      "testable_reasoning": "Testable through neuroimaging, lesion studies, pharmacological interventions, connectivity analysis, and dissociation experiments. Multiple empirical approaches to validate independence claim.",
+      "significant": 7,
+      "significant_reasoning": "Important for understanding metacognition and has therapeutic implications. Could reshape interventions for metacognitive deficits if validated.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-structured neuroscientific argument. The independence claim is clearly articulated with supporting evidence, though ends mid-sentence.",
+      "final_score": 113,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "metaphysics",
+    "timestamp": "2025-10-30T04:55:10.122724",
+    "proposition": "Consciousness discovers the sacred not by transcending material reality but through complete inhabitation of it...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Immanent approaches to the sacred are found in various philosophical traditions. The dialectical framing and 'radical immanence' concept offer fresh articulation but build on existing phenomenological and mystical thought.",
+      "testable": 2,
+      "testable_reasoning": "Metaphysical and phenomenological claims resist empirical testing. Could explore through phenomenological research but core claims about the sacred aren't scientifically falsifiable.",
+      "significant": 5,
+      "significant_reasoning": "Interesting philosophical perspective with implications for spirituality and consciousness studies. Impact primarily within philosophical discourse on embodiment and sacred.",
+      "coherent": 9,
+      "coherent_reasoning": "Philosophically sophisticated with clear dialectical development. The progression from immanence to transcendence-through-immanence is logically presented.",
+      "final_score": 66,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T04:55:15.263591",
+    "proposition": "Liberation theology movements in Latin America have developed autonomous authority structures by grounding their legitimacy in indigenous cosmological traditions rather than seeking validation from state or ecclesiastical institutions...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The concept of 'cosmological legitimacy' and analysis of how indigenous spirituality creates parallel authority structures offers fresh theoretical framework, though indigenous resistance movements are well-studied.",
+      "testable": 6,
+      "testable_reasoning": "Can study through ethnographic research, historical analysis, and comparative politics. However, measuring 'cosmological legitimacy' and 'autonomous authority' involves interpretive challenges.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding postcolonial politics and indigenous movements. Challenges Western legitimacy theories but impact somewhat limited to specific contexts.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-structured political theory argument with clear exposition of the mechanism and its implications. Some claims about broader applicability could be better supported.",
+      "final_score": 94,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "epistemology",
+    "timestamp": "2025-10-30T04:55:21.826600",
+    "proposition": "Historical linguistics faces an irreducible epistemological constraint: phonological information decays systematically over time, creating ontological limits that no methodological advancement can overcome...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The limit on deep-time reconstruction is recognized in linguistics, but framing it as 'irreducible epistemological constraint' with 'ontological limits' provides philosophical precision to the methodological discussion.",
+      "testable": 6,
+      "testable_reasoning": "Can test decay rates, confidence thresholds, and reconstruction reliability at various time depths. However, establishing absolute limits is difficult since we lack independent verification for deep prehistory.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding limits of historical linguistics and setting realistic research goals. Primarily impacts linguistic methodology rather than broader epistemology.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear epistemological argument with well-articulated distinction between methodological and ontological limits. Ends mid-sentence but core argument is well-developed.",
+      "final_score": 95,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "psychology",
+    "timestamp": "2025-10-30T04:55:27.387608",
+    "proposition": "Traumatic memories form hierarchical neural networks where distinct emotional components—fear, shame, anger, helplessness—consolidate into functionally separate layers that resist integration...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "Emotional compartmentalization in trauma is known, but the specific hierarchical network model with systematic treatment implications offers refinement of trauma theory.",
+      "testable": 7,
+      "testable_reasoning": "Testable through neuroimaging, therapy outcome research comparing layer-targeted vs. general approaches, and psychophysiological measures. Requires sophisticated methodology but feasible.",
+      "significant": 7,
+      "significant_reasoning": "Clinically important for improving trauma treatment. The phase-oriented approach has practical therapeutic value and could enhance treatment effectiveness if validated.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured clinical theory with clear mechanism and treatment implications. Logical progression from neurobiology to therapeutic strategy, though ends mid-sentence.",
+      "final_score": 107,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "economics",
+    "timestamp": "2025-10-30T04:55:33.131972",
+    "proposition": "Central banks deploying unconventional monetary policies during deflationary periods face a critical measurement problem that undermines policy effectiveness...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Measurement challenges in monetary policy are recognized. The specific focus on unconventional policies and the gap between traditional metrics and new transmission mechanisms is relevant but builds on known issues.",
+      "testable": 7,
+      "testable_reasoning": "Can test through analysis of policy transmission, development of new indicators, and comparative studies of central bank effectiveness. Measurement framework proposals are empirically evaluable.",
+      "significant": 6,
+      "significant_reasoning": "Important for monetary policy design and central bank operations. Addresses real challenges in unconventional policy but offers more problem identification than solution.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear economic argument with well-articulated problem and implications. Logical progression from measurement gap to policy risks.",
+      "final_score": 95,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "ethics",
+    "timestamp": "2025-10-30T04:55:44.418846",
+    "proposition": "Small groups generate ethical legitimacy by transforming individual moral intuitions into collectively endorsed standards through inclusive deliberation...",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "Deliberative democracy and participatory ethics are well-established. The analysis of limitations and tension between participation and universal principles follows familiar lines.",
+      "testable": 5,
+      "testable_reasoning": "Can study through experimental moral psychology, small group dynamics research, and observation of deliberative processes. However, normative claims about legitimacy resist empirical testing.",
+      "significant": 5,
+      "significant_reasoning": "Relevant for democratic theory and group ethics but offers incremental refinement rather than new frameworks. The practical applications are somewhat limited.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-balanced ethical analysis that acknowledges both strengths and limitations. Clear presentation of the tension between participation and universal principles.",
+      "final_score": 74,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T04:55:51.189112",
+    "proposition": "Contemporary democratic discourse has devolved into performative citation—a practice where political actors deploy quotations and textual references primarily to signal intellectual legitimacy rather than engage substantively with ideas...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Critique of intellectual dishonesty and performative politics is familiar. The specific focus on citation practices offers concrete application but not fundamentally new theoretical insight.",
+      "testable": 6,
+      "testable_reasoning": "Can analyze citation patterns, track consistency in political references, and study audience reception. However, distinguishing 'genuine' from 'performative' engagement involves interpretive judgment.",
+      "significant": 5,
+      "significant_reasoning": "Relevant critique of political discourse quality but doesn't offer solutions or novel analytical frameworks. The diagnosis is more valuable than actionable insights.",
+      "coherent": 8,
+      "coherent_reasoning": "Clear critical argument with good examples. Logical progression from observation to systemic implications, though ends mid-sentence.",
+      "final_score": 79,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "astronomy",
+    "timestamp": "2025-10-30T04:55:58.805484",
+    "proposition": "Pompeii's exceptionally preserved pyroclastic deposits provide quantitative calibration data for modeling volcanic processes on Io, Jupiter's most volcanically active moon...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "Using terrestrial volcanic deposits to calibrate extraterrestrial volcanic models is creative. The specific Pompeii-Io connection with detailed scaling relationships offers novel cross-disciplinary approach.",
+      "testable": 7,
+      "testable_reasoning": "Testable through analysis of Pompeii deposits, Io observations, scaling law validation, and comparative volcanism studies. Predictions about plume heights and velocities can be checked.",
+      "significant": 6,
+      "significant_reasoning": "Interesting for planetary science and comparative volcanism. Practical applications somewhat limited but offers useful calibration methodology.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned cross-disciplinary argument. Clear scaling methodology though ends mid-sentence. Some assumptions about similarity need more justification.",
+      "final_score": 101,
+      "max_possible": 150
+    }
+  }
+]

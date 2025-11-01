@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "mathematics",
+    "timestamp": "2025-10-30T04:36:57.870130",
+    "proposition": "The spectral radius of diffusion operators on weighted graphs satisfies ρ ≤ 1 - c/(α(G)·Δ)...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The explicit bound relating spectral gap to the independence-degree ratio α(G)/Δ is novel and provides new theoretical insight into graph mixing dynamics. The connection between structural properties and convergence rates is innovative.",
+      "testable": 7,
+      "testable_reasoning": "Testable through mathematical proof verification, graph simulation, and empirical validation on various graph structures. The bound can be computed and validated for specific graph families.",
+      "significant": 7,
+      "significant_reasoning": "Important for distributed algorithm design and network analysis. Provides quantitative design criteria for ensuring fast mixing and has applications in consensus algorithms and random walks.",
+      "coherent": 9,
+      "coherent_reasoning": "Rigorous mathematical presentation with clear statement of the bound, its implications, and practical applications. Technical content is well-organized and logically structured.",
+      "final_score": 115,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "aesthetics",
+    "timestamp": "2025-10-30T04:37:04.159280",
+    "proposition": "The Sulka people's ceremonial masks reveal an aesthetic philosophy that locates spiritual power in perceptual transformation rather than symbolic representation...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The analysis of metallurgically enhanced pigments as perceptual catalysts and the framing of masks as 'technologies of perception' offers fresh perspective on non-Western aesthetics. Challenges symbolic interpretation dominance.",
+      "testable": 5,
+      "testable_reasoning": "Difficult to test empirically. Could examine viewer responses to luminescent effects, study material composition of masks, and document perceptual experiences. However, phenomenological claims resist quantification.",
+      "significant": 6,
+      "significant_reasoning": "Important for aesthetic theory and anthropology of art. Challenges Western symbolic frameworks and reveals alternative modes of aesthetic meaning-making. Impact somewhat limited to specialized discourse.",
+      "coherent": 8,
+      "coherent_reasoning": "Compelling philosophical argument with clear conceptual development. The progression from material properties to perceptual transformation to spiritual encounter is logical, though ends mid-sentence.",
+      "final_score": 92,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "economics",
+    "timestamp": "2025-10-30T04:37:11.016853",
+    "proposition": "Environmental regulations in mining create perverse incentives through grandfathering provisions that exempt existing operations from standards applied to new entrants...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Grandfathering problems in regulation are well-documented. The specific application to mining environmental standards synthesizes known regulatory economics concepts rather than introducing fundamentally new theory.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through economic analysis of mining firms, environmental performance metrics, productivity comparisons, investment patterns, and policy natural experiments where grandfathering rules changed.",
+      "significant": 6,
+      "significant_reasoning": "Important for environmental policy design with clear practical implications. The analysis is relevant for ongoing regulatory debates, though the insights are somewhat incremental.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear economic reasoning with well-articulated causal mechanisms. The progression from problem identification through distortions to policy solutions is logical and well-structured, though ends mid-sentence.",
+      "final_score": 96,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "ethics",
+    "timestamp": "2025-10-30T04:37:18.355958",
+    "proposition": "Remote communities with inflammatory skin conditions face a false choice between preserving indigenous knowledge and accessing effective treatments...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "Collaborative integration of indigenous and Western medicine is an established ethical framework. The specific application to dermatological care and emphasis on health sovereignty offers some fresh perspective.",
+      "testable": 6,
+      "testable_reasoning": "Can test through health outcome studies, community satisfaction measures, and evaluation of integrated treatment programs. However, measuring 'health sovereignty' and cultural preservation requires qualitative methods.",
+      "significant": 6,
+      "significant_reasoning": "Important for medical ethics in indigenous contexts and has practical clinical relevance. However, the framework builds on existing bioethics principles rather than revolutionary new approach.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured ethical argument with clear principles and practical applications. The balance between respecting autonomy and promoting health is thoughtfully presented.",
+      "final_score": 95,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "astronomy",
+    "timestamp": "2025-10-30T04:37:23.747897",
+    "proposition": "Quasi-periodic oscillations (QPOs) in black hole X-ray binaries offer our most direct observational window into the warped spacetime near event horizons...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "QPOs as probes of strong-field general relativity is an established research area. The presentation synthesizes current understanding rather than proposing novel mechanisms or predictions.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through X-ray timing observations, spectral analysis, and comparison with theoretical models. QPO frequencies and ratios provide quantitative tests of general relativity predictions.",
+      "significant": 7,
+      "significant_reasoning": "Important for testing general relativity in strong-field regime and measuring black hole parameters. Has led to significant constraints on black hole spin and continues to provide valuable data.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear astrophysical exposition with well-explained connections between observations and theory. The progression from physical mechanism to empirical applications is logical and well-presented.",
+      "final_score": 100,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "psychology",
+    "timestamp": "2025-10-30T04:37:34.598113",
+    "proposition": "Loganberry extract shows promise as an anxiolytic agent through GABA receptor enhancement...",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "Natural compounds with GABAergic effects are extensively studied. Loganberry extract as a specific agent may be novel, but the mechanism and clinical approach follow established patterns in phytopharmacology.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through pharmacological assays, clinical trials, bioactive compound isolation, and comparative efficacy studies. Standard drug development methodology applies straightforwardly.",
+      "significant": 5,
+      "significant_reasoning": "Potentially useful if validated, but one more natural anxiolytic candidate among many. Without evidence of unique advantages over existing treatments, significance is moderate.",
+      "coherent": 8,
+      "coherent_reasoning": "Scientifically coherent presentation with appropriate cautions about safety and need for standardization. Logical progression from mechanism to clinical considerations.",
+      "final_score": 77,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "biology",
+    "timestamp": "2025-10-30T04:37:40.030610",
+    "proposition": "Colubrina elliptica, a Caribbean coastal shrub, has evolved a novel biomineralization strategy incorporating copper-phosphate minerals directly into cell wall matrices to enhance salt tolerance...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "Copper-phosphate biomineralization in plant cell walls for salt tolerance is highly novel. Most plant biomineralization involves silica or calcium compounds. The dual functionality (structural + antimicrobial) is innovative.",
+      "testable": 8,
+      "testable_reasoning": "Testable through materials analysis, microscopy, molecular biology to identify transporters, salt tolerance assays, and comparative studies. The proposed mechanisms can be directly examined with available techniques.",
+      "significant": 7,
+      "significant_reasoning": "If confirmed, represents important discovery in plant adaptation and biomineralization. Has implications for crop salt tolerance and biomimetic materials. Could inform climate adaptation strategies.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned biological proposal with clear mechanistic hypotheses. Acknowledges unknowns (molecular machinery) while presenting testable framework for investigation.",
+      "final_score": 116,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "mathematics",
+    "timestamp": "2025-10-30T04:37:54.189042",
+    "proposition": "Rigorous mathematical analysis requires access to the complete formal structure of the proposition under consideration...",
+    "evaluation": {
+      "novel": 1,
+      "novel_reasoning": "This is a meta-statement about the requirements for mathematical analysis rather than a mathematical proposition. It's a truism about mathematical methodology with no novel content.",
+      "testable": 2,
+      "testable_reasoning": "Not a testable mathematical claim. It's a methodological statement about what's needed to do mathematics properly. Cannot be empirically validated or falsified.",
+      "significant": 1,
+      "significant_reasoning": "Offers no mathematical insight, discovery, or advancement. Simply states that one needs complete information to do rigorous analysis—a trivial observation.",
+      "coherent": 7,
+      "coherent_reasoning": "Coherently states a basic requirement for mathematical work, but this coherence doesn't compensate for lack of substantive content.",
+      "final_score": 17,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T04:37:59.501761",
+    "proposition": "Contemporary democratic discourse has withered under technocratic governance that systematically reframes political questions as technical problems...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Critique of technocracy and depoliticization is well-established in political theory. The analysis builds on existing critiques from Habermas, Rancière, and others rather than introducing fundamentally new concepts.",
+      "testable": 5,
+      "testable_reasoning": "Difficult to test empirically. Could analyze political discourse evolution, policy framing, and public participation patterns. However, determining what constitutes 'genuine' political choice involves normative judgments.",
+      "significant": 6,
+      "significant_reasoning": "Important critique of contemporary governance with implications for democratic renewal. However, retreads familiar ground in political theory without offering novel solutions or frameworks.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-structured critical argument with clear diagnosis of democratic deficit. The progression from technocratic displacement to democratic deskilling is logical, though ends mid-sentence.",
+      "final_score": 81,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "physics",
+    "timestamp": "2025-10-30T04:38:05.760780",
+    "proposition": "Objective collapse interpretations of quantum mechanics face a fundamental constraint: their stochastic modifications to unitary evolution must preserve local gauge invariance...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "While gauge invariance requirements in quantum field theory are known, the specific application to objective collapse models and the detailed analysis of tensions with localization is sophisticated and less widely discussed.",
+      "testable": 6,
+      "testable_reasoning": "Primarily theoretical/mathematical analysis. Tests would involve formal verification of gauge (in)variance in specific collapse models and exploration of whether gauge-invariant collapse operators can be constructed.",
+      "significant": 6,
+      "significant_reasoning": "Important for quantum foundations and collapse models, particularly for those pursuing objective collapse theories. However, impact is largely within specialized quantum foundations community.",
+      "coherent": 8,
+      "coherent_reasoning": "Technically sophisticated argument with clear identification of the constraint and its implications. Ends mid-sentence but the core technical point is well-presented.",
+      "final_score": 94,
+      "max_possible": 150
+    }
+  }
+]
