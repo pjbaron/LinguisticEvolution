@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "metaphysics",
+    "timestamp": "2025-10-30T07:57:52.728109",
+    "proposition": "The quality of embodied consciousness depends fundamentally on how we understand the relationship between mind and matter...",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "Mind-body problem and interdependence of consciousness and matter are central topics in metaphysics and phenomenology. The specific framing of dualistic thinking as the source of spiritual problems is found in various philosophical traditions. Synthesizes known perspectives rather than offering fundamentally new insights.",
+      "testable": 2,
+      "testable_reasoning": "Metaphysical claims about consciousness and reality resist empirical testing. Can be evaluated philosophically for internal consistency but not through scientific methods. The claims are primarily conceptual rather than empirically falsifiable.",
+      "significant": 5,
+      "significant_reasoning": "Important for philosophy of mind and spiritual philosophy. Offers framework for understanding embodiment. However, builds on extensive existing work in phenomenology, process philosophy, and Eastern metaphysics without major advancement.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured metaphysical argument with clear progression from dualism as problem to unity as solution. Logically coherent presentation of non-dualistic framework.",
+      "final_score": 58,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "chemistry",
+    "timestamp": "2025-10-30T07:57:57.836102",
+    "proposition": "Needle-like coordination polymers achieve directional functionality through anisotropic hydrogen bonding networks that template one-dimensional assembly...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The systematic framework for designing directional functionality through combined proton conductivity and molecular separation in coordination polymers is innovative. The emphasis on guest-induced flexibility for stimuli-responsive properties offers fresh design perspective.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through materials synthesis, structural characterization, proton conductivity measurements, guest binding studies, and separation performance testing. Clear design predictions amenable to systematic experimental validation.",
+      "significant": 7,
+      "significant_reasoning": "Could be important for materials science, particularly for fuel cells, separations, and sensing. The predictive design framework has potential applications. Requires experimental validation but shows promise.",
+      "coherent": 9,
+      "coherent_reasoning": "Excellent chemical exposition with clear progression from structure to properties to design principles. Well-articulated connection between hydrogen bonding, channel architecture, and functionality.",
+      "final_score": 117,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T07:58:03.540095",
+    "proposition": "Revolutionary movements contain a fundamental contradiction: the institutional power required to secure revolutionary change systematically undermines the emancipatory goals...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The revolutionary paradox and corruption of revolutionary movements through institutionalization is extensively analyzed in political theory. The specific three-mechanism framework and emphasis on gradual vs. revolutionary change offers clarity but builds on established critiques.",
+      "testable": 5,
+      "testable_reasoning": "Can study through historical analysis, comparative revolution studies, and examination of institutional evolution. However, normative claims about the impossibility of revolutionary emancipation resist definitive empirical testing.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding revolutionary politics and social change strategies. Has implications for activist movements. However, offers more diagnosis than novel solutions or frameworks.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured critical argument with clear identification of contradictions and logical progression from problem to implications to alternative strategies.",
+      "final_score": 83,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "anthropology",
+    "timestamp": "2025-10-30T07:58:09.273018",
+    "proposition": "Paleolithic populations developed correlated patterns between genetic metabolic capacity and cultural technologies through co-evolutionary dynamics linking human physiology with psychoactive plant use...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The hypothesis linking cytochrome P450 variants to divergent technological trajectories (botanical processing vs. acoustic/architectural consciousness alteration) is highly creative. The co-evolutionary framework connecting metabolic genetics to ritual technologies is innovative.",
+      "testable": 6,
+      "testable_reasoning": "Testable through paleogenetics, archaeological analysis of ritual technologies, and morphological studies. However, linking specific genetic variants to archaeological patterns faces significant evidentiary challenges and confounding variables.",
+      "significant": 6,
+      "significant_reasoning": "Could be interesting for understanding Paleolithic cultural diversity if validated. The framework is creative but highly speculative. Requires substantial evidence to support the proposed correlations.",
+      "coherent": 7,
+      "coherent_reasoning": "Creative hypothesis with logical connections between genetics, metabolism, and technology. However, makes several strong assumptions about selective pressures and cultural correlations that need more supporting evidence.",
+      "final_score": 92,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "biology",
+    "timestamp": "2025-10-30T07:58:16.343243",
+    "proposition": "Morphogenic gradients establish concentration thresholds that trigger binary fate switches in neural precursor cells during cephalopod brain development, generating the pronounced left-right asymmetries...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "While threshold-driven developmental switches are known, the specific application to cephalopod brain lateralization with emphasis on sigmoidal response curves and feedback amplification offers fresh perspective on invertebrate neural development.",
+      "testable": 7,
+      "testable_reasoning": "Testable through developmental biology studies, molecular characterization of morphogens, perturbation experiments, and comparative studies. Requires sophisticated methodology but feasible with cephalopod model systems.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding invertebrate brain development and cognitive evolution. The comparative vertebrate implications are interesting. Impact primarily within developmental neurobiology.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-reasoned developmental hypothesis with clear mechanistic progression from gradients to thresholds to asymmetric structures. Appropriately acknowledges unknowns.",
+      "final_score": 103,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "mathematics",
+    "timestamp": "2025-10-30T07:58:21.531395",
+    "proposition": "For self-adjoint operators on infinite-dimensional Hilbert spaces, compact perturbations exhibit a fundamental rigidity-plasticity dichotomy: they leave the essential spectrum completely invariant while permitting arbitrary modification of discrete eigenvalues...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The rigidity-plasticity dichotomy for compact perturbations is a fundamental result in operator theory. This is clear exposition of established spectral theory rather than novel mathematical insight.",
+      "testable": 7,
+      "testable_reasoning": "Well-established mathematical result that can be proven rigorously. The spectral engineering applications can be tested through operator construction and analysis.",
+      "significant": 6,
+      "significant_reasoning": "Important for operator theory and has applications in spectral design. However, this is textbook functional analysis rather than new mathematical development.",
+      "coherent": 9,
+      "coherent_reasoning": "Excellent mathematical exposition with clear explanation of the dichotomy and its implications for spectral engineering.",
+      "final_score": 89,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "chemistry",
+    "timestamp": "2025-10-30T07:58:26.834641",
+    "proposition": "Strategic incorporation of chelating agents into crystalline catalyst supports creates precisely controlled surface defects that function as optimized coordination sites for metal centers...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The systematic framework for defect engineering through chelating agents with up to 340% activity enhancement is innovative. The shift from empirical to rational design through controlled defects offers fresh approach to catalyst optimization.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through catalyst synthesis, activity measurements, structural characterization, and systematic variation of chelating agents. Clear performance claims amenable to experimental validation.",
+      "significant": 7,
+      "significant_reasoning": "Could be important for heterogeneous catalysis if the activity enhancements are validated. Has practical industrial applications. The rational design framework is valuable.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear chemical reasoning with well-articulated progression from defect engineering to structure-activity relationships to applications.",
+      "final_score": 115,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "biology",
+    "timestamp": "2025-10-30T07:58:31.726944",
+    "proposition": "Palomino coat color results from a novel developmental mechanism where dermal papillae adopt elongated morphologies that create spatially distinct microenvironments within individual hair follicles...",
+    "evaluation": {
+      "novel": 8,
+      "novel_reasoning": "The specific mechanism linking dermal papilla elongation to selective eumelanin suppression through spatial microenvironments is creative. The concept of papilla morphology as a developmental module for phenotypic diversity is innovative.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through developmental biology studies, microscopy, genetic perturbations, and comparative analysis across mammals. The predictions about papilla morphology and pigmentation patterns can be directly examined.",
+      "significant": 6,
+      "significant_reasoning": "Interesting for developmental biology and coat color genetics. Could explain previously uncharacterized dilution variants. Impact primarily within specialized areas of mammalian genetics.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured developmental hypothesis with clear mechanistic progression and testable predictions. Ends mid-sentence but core mechanism is well-articulated.",
+      "final_score": 110,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T07:58:36.955039",
+    "proposition": "Eastern European nationalist movements have paradoxically embraced cholent—a traditional Jewish stew—as a symbol of regional authenticity, creating what we might call 'alimentary citizenship'...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The concept of 'alimentary citizenship' and analysis of how nationalist movements incorporate minority traditions is innovative. The paradox of ethnic exclusivity embracing minority culinary practices offers fresh perspective on identity politics.",
+      "testable": 6,
+      "testable_reasoning": "Can study through ethnographic research, analysis of nationalist discourse, and examination of identity practices. However, measuring 'alimentary citizenship' and its effects involves interpretive challenges.",
+      "significant": 6,
+      "significant_reasoning": "Interesting for understanding nationalism and identity formation. Has implications for multicultural politics. However, the specific case may have limited generalizability.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured political theory argument with clear identification of paradox and thoughtful analysis of implications for inclusive belonging.",
+      "final_score": 100,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "astronomy",
+    "timestamp": "2025-10-30T07:58:43.341863",
+    "proposition": "Vertical metallicity gradients in exoplanetary atmospheres create wavelength-dependent opacity variations that fundamentally alter radiative-convective boundaries and atmospheric thermal structure...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific mechanism of metallicity gradients in exoplanet atmospheres creating climate bistability and underestimation of habitable zones around K-dwarfs is innovative. The connection to observational puzzles is valuable.",
+      "testable": 7,
+      "testable_reasoning": "Testable through atmospheric modeling, transmission spectroscopy, and analysis of exoplanet atmospheres. The predictions about bistability and observational signatures can be validated with current and upcoming instruments.",
+      "significant": 7,
+      "significant_reasoning": "Could be important for habitable zone calculations and understanding exoplanet atmospheric diversity. Has implications for astrobiology. Requires validation through observations.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned astronomical hypothesis with clear mechanism and observational predictions. Ends mid-sentence but core argument is well-developed.",
+      "final_score": 105,
+      "max_possible": 150
+    }
+  }
+]
