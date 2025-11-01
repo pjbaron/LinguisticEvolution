@@ -1,0 +1,1 @@
+Supercapacitors store energy through electrostatic charge separation at electrode-electrolyte interfaces, offering rapid charging and high power density but lower energy density than batteries. Developing high-surface-area electrode materials like graphene or porous carbons and optimizing electrolytes could narrow the energy density gap while maintaining power advantages.

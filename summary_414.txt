@@ -1,0 +1,1 @@
+Transformers rely entirely on attention mechanisms without recurrence, processing sequences in parallel rather than sequentially. This architecture enables efficient training on long sequences and captures long-range dependencies that recurrent networks struggle with. Transformers have become dominant in NLP and increasingly in computer vision through models like BERT and GPT.

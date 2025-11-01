@@ -1,0 +1,1 @@
+This argues that in modal logic with nested contexts, variables must be restricted to the specific possible world they belong to. Without this restriction, logical statements can illegitimately reference things across different possible worlds, creating invalid reasoning. This shows that existence claims in modal logic depend critically on which world you're talking about.

@@ -1,0 +1,1 @@
+Cascade reactions link multiple transformations in sequence without isolation of intermediates, improving efficiency and reducing waste compared to stepwise synthesis. Designing compatible reaction conditions and catalysts that don't interfere with each other enables increasingly complex cascade sequences. This approach mimics biosynthetic efficiency in laboratory settings.
