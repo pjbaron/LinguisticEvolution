@@ -68,6 +68,30 @@ Propositions are:
 
 ## Pipeline Modes
 
+### Automated Interactive Pipeline (automated_proposition.py) ⭐ NEW
+
+**Single proposition with complete workflow:**
+
+```bash
+# Interactive mode - just type your proposition!
+python automated_proposition.py
+```
+
+**What it does:**
+1. Takes your proposition as input
+2. Refines it 5 times iteratively
+3. Evaluates it on 5 metrics (clarity, coherence, novelty, depth, precision)
+4. Generates an ELI Year 12 summary
+5. Saves everything to a timestamped file
+
+**Output includes:**
+- Current processing stage display
+- All evaluation scores with justifications
+- Accessible high-school-level explanation
+- Complete history saved to `outputs/proposition_YYYYMMDD_HHMMSS.json`
+
+See **[AUTOMATED_PIPELINE.md](AUTOMATED_PIPELINE.md)** for full documentation.
+
 ### Simple Pipeline (proposition_pipeline.py)
 
 Single-stage generation and refinement:
