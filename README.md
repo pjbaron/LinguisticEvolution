@@ -68,12 +68,41 @@ Propositions are:
 
 ## Pipeline Modes
 
-### Automated Interactive Pipeline (automated_proposition.py) ⭐ NEW
+### Claude Code Integrated Pipeline (claude_integrated_pipeline.py) ⭐ RECOMMENDED
 
-**Single proposition with complete workflow:**
+**Interactive workflow with Claude Code:**
 
 ```bash
-# Interactive mode - just type your proposition!
+# Step 1: Refine your proposition
+python claude_integrated_pipeline.py
+# Enter your proposition and domain
+
+# Step 2: Copy the output prompt and paste it to Claude Code
+# Claude Code will evaluate, summarize, and save results
+```
+
+**Why this workflow?**
+- ✓ Fast automated refinement (5 stages via API)
+- ✓ Claude Code evaluates with full context and conversation
+- ✓ Human-in-the-loop for nuanced evaluation
+- ✓ Transparent evaluation process
+- ✓ Complete results saved to timestamped file
+
+**What it does:**
+1. Script refines your proposition 5 times (automated)
+2. Script saves to `work/proposition_TIMESTAMP.json`
+3. You ask Claude Code to evaluate and summarize (copy-paste prompt)
+4. Claude Code provides evaluation + ELI Year 12 summary
+5. Everything saved to `outputs/proposition_TIMESTAMP.json`
+
+See **[CLAUDE_CODE_WORKFLOW.md](CLAUDE_CODE_WORKFLOW.md)** for full documentation.
+
+### Automated Interactive Pipeline (automated_proposition.py)
+
+**Fully automated single proposition workflow:**
+
+```bash
+# Interactive mode - fully hands-off
 python automated_proposition.py
 ```
 
