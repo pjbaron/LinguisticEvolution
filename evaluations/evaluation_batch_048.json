@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "geology",
+    "timestamp": "2025-10-30T08:23:02.972826",
+    "proposition": "Early geological surveys of Paleozoic formations in the Appalachian mountain belt systematically overlooked microcrystalline minerals due to analytical limitations...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific emphasis on microcrystalline phases in Appalachian metamorphic studies is useful. While modern analytical techniques are established, the systematic re-sampling strategy targeting previously overlooked fine-grained materials offers fresh approach.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through modern analytical techniques (electron microprobe, LA-ICP-MS, geochronology), re-sampling campaigns, and comparison with historical data. Clear experimental protocols and predictions.",
+      "significant": 7,
+      "significant_reasoning": "Important for understanding Appalachian orogenic evolution and has practical applications for critical metals exploration. Could provide unprecedented temporal resolution for metamorphic processes.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured geological argument with clear progression from analytical gaps to modern techniques to research applications and practical implications.",
+      "final_score": 112,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T08:23:07.931584",
+    "proposition": "Constitutional legitimacy emerges from a fundamental paradox: long-term stability requires not the prevention of ruptures, but the capacity to navigate them successfully...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The geological analogy and concept of constitutional moments as necessary pressure release is creative. The design paradox and dual capacity framework offers fresh perspective on constitutional resilience and democratic transitions.",
+      "testable": 6,
+      "testable_reasoning": "Can test through comparative constitutional analysis, historical case studies of constitutional crises, and analysis of institutional design features. However, establishing causality in complex political systems is challenging.",
+      "significant": 7,
+      "significant_reasoning": "Important for constitutional design and understanding democratic transitions. Has practical implications for designing resilient institutions. Challenges conventional stability-focused approaches.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured political argument with clear mechanistic explanation using geological analogy. Logical progression from paradox to design implications to critical challenge.",
+      "final_score": 106,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T08:23:13.084351",
+    "proposition": "Modern democracy faces a structural crisis: the growing complexity of governance systematically transfers real political power from citizens to technocratic elites...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of technocratic capture and expertocracy is discussed in political theory. The specific emphasis on manufactured complexity as self-justifying feedback loop offers useful framework but builds on existing critiques.",
+      "testable": 5,
+      "testable_reasoning": "Can study through analysis of policy formation processes, expert influence, and citizen participation. However, distinguishing legitimate expertise from illegitimate capture is conceptually challenging and involves normative judgments.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding democratic accountability and expert governance. Has implications for institutional design. However, offers critique without clear solutions.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured political argument with clear progression from knowledge asymmetry to technocratic dominance to regime transformation. Ends mid-sentence but core mechanism is well-articulated.",
+      "final_score": 86,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "sociology",
+    "timestamp": "2025-10-30T08:23:18.408922",
+    "proposition": "Contemporary digital activism reveals a structural paradox: movements that appear most anti-institutional online become most dependent on institutional validation for survival...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The analysis of digital activism's institutional dependencies is insightful. The emphasis on temporal compression, layered dependency, and ephemeral mobilization offers useful framework for understanding digital-era social movements.",
+      "testable": 7,
+      "testable_reasoning": "Testable through analysis of digital movement outcomes, institutional engagement patterns, platform dependencies, and longitudinal studies comparing symbolic vs substantive victories. Clear empirical predictions.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding contemporary activism and social movement outcomes. Has implications for movement strategy. However, primarily offers analysis rather than solutions.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured sociological argument with clear analysis of the paradox operating at multiple levels and implications for power structures.",
+      "final_score": 95,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "sociology",
+    "timestamp": "2025-10-30T08:23:22.970598",
+    "proposition": "Sooreyn describes a paradoxical form of strategic assimilation where marginalized groups adopt visible practices of dominant culture while internally rejecting its underlying values...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The concept of performative compliance and strategic assimilation is studied in sociology. The term 'Sooreyn' appears to be specialized terminology. The analysis of mutual misrecognition offers useful framework.",
+      "testable": 6,
+      "testable_reasoning": "Can test through ethnographic studies, analysis of assimilation patterns, workplace diversity studies, and examination of stated vs revealed preferences. However, distinguishing authentic from performative compliance is methodologically challenging.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding assimilation dynamics and structural inequality. Has implications for diversity initiatives and social policy. Primarily analytical framework.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured sociological argument with clear progression from strategic performance to double bind to social control to institutional implications.",
+      "final_score": 87,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "astronomy",
+    "timestamp": "2025-10-30T08:23:27.933122",
+    "proposition": "Close binary white dwarf systems exhibit enhanced gravitational wave energy dissipation when approaching orbital resonances...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific mechanism of resonance-enhanced gravitational wave emission through higher-order multipoles in white dwarf binaries is innovative. Could address observational discrepancies in merger rates and Type Ia supernova progenitors.",
+      "testable": 8,
+      "testable_reasoning": "Testable through gravitational wave data analysis, numerical simulations of binary white dwarf systems, and comparison with LIGO-Virgo observations. Clear predictions about frequency evolution and amplitude modulations.",
+      "significant": 7,
+      "significant_reasoning": "Could be important for gravitational wave astronomy and Type Ia supernova models if validated. Addresses real observational discrepancies. Impact depends on empirical validation.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned astrophysical hypothesis with clear mechanism and observational implications. Some technical details could be more explicit but overall logic is sound.",
+      "final_score": 108,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "physics",
+    "timestamp": "2025-10-30T08:23:32.655270",
+    "proposition": "In high-energy plasma systems, electromagnetic fields can spontaneously organize into coherent disk-like structures when the collective de Broglie wavelength satisfies quantization conditions...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The concept of quantum-coherent plasma modes with macroscopic coherence and ballistic energy transport is innovative. The claim of bypassing Carnot efficiency through coherent energy harvesting is extraordinary.",
+      "testable": 6,
+      "testable_reasoning": "Can test through plasma experiments, coherence measurements, and energy extraction demonstrations. However, the extreme conditions and extraordinary efficiency claims require rigorous validation. High experimental difficulty.",
+      "significant": 8,
+      "significant_reasoning": "Would be revolutionary for fusion energy if validated. The claim of direct electrical generation approaching quantum limits is transformative. However, extraordinary claims require extraordinary evidence.",
+      "coherent": 7,
+      "coherent_reasoning": "Reasonably coherent physical argument but makes extraordinary claims about efficiency that may violate thermodynamic constraints. The mechanism needs more rigorous theoretical development.",
+      "final_score": 102,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "logic",
+    "timestamp": "2025-10-30T08:23:37.670158",
+    "proposition": "Chess reveals a fundamental paradox: players who pursue only immediate gains while ignoring the game's logical structure ultimately destroy their own strategic capacity...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The concept of epistemic commons and meta-cooperative behavior among rational competitors is interesting. However, similar ideas appear in game theory, institutional economics, and rational choice theory.",
+      "testable": 5,
+      "testable_reasoning": "Can test through game theory simulations, analysis of competitive environments, and historical case studies. However, the normative claims resist direct empirical testing.",
+      "significant": 5,
+      "significant_reasoning": "Interesting for understanding rational competition and institutional preservation. Has broad implications across domains. However, offers philosophical insight rather than practical framework.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured logical argument with clear progression from chess analogy to epistemic commons to meta-cooperation to universal principle.",
+      "final_score": 79,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "biology",
+    "timestamp": "2025-10-30T08:23:42.981544",
+    "proposition": "The epiprecoracoid ossification in early tetrapods exhibits a distinctive medial-to-lateral developmental progression through endochondral ossification, producing quantifiable birefringence patterns...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific application of polarized light microscopy to tetrapod shoulder girdle evolution and the quantitative analysis of ossification patterns offers useful methodological approach. Builds on established histological techniques.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through polarized light microscopy, comparative analysis across tetrapod lineages, and correlation with biomechanical models. Clear experimental protocols for fossil and extant specimens.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding tetrapod terrestrialization and shoulder girdle evolution. Offers quantitative method for developmental heterochrony. Impact primarily within paleobiology.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-structured biological argument connecting microstructural patterns to biomechanical function to evolutionary implications. Technical but logically sound.",
+      "final_score": 98,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "physics",
+    "timestamp": "2025-10-30T08:23:47.954760",
+    "proposition": "Entangled photon pairs propagating through free space demonstrate unexpectedly robust coherence over extended distances, suggesting that vacuum fluctuations may interact constructively with quantum states...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The claim that vacuum fluctuations constructively stabilize entanglement rather than causing decoherence is counterintuitive and innovative. The space-based quantum network architecture exploiting this effect is creative.",
+      "testable": 7,
+      "testable_reasoning": "Testable through free-space quantum communication experiments, space-based quantum networks, and comparison with fiber systems. Current ground-to-satellite quantum links provide some validation path.",
+      "significant": 7,
+      "significant_reasoning": "Could be important for quantum communication and space-based quantum networks if validated. Has practical implications for global quantum infrastructure. Challenges conventional assumptions about decoherence.",
+      "coherent": 8,
+      "coherent_reasoning": "Reasonably coherent quantum physics argument with clear progression from vacuum stability to space-based architectures to interplanetary applications. Some mechanistic details could be more explicit.",
+      "final_score": 106,
+      "max_possible": 150
+    }
+  }
+]
