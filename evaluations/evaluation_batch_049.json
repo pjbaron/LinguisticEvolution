@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "sociology",
+    "timestamp": "2025-10-30T08:31:24.040670",
+    "proposition": "In post-industrial societies, the decline of traditional religious authority has created a crisis of collective meaning-making. Rather than embracing secular rationality, communities construct competing ideological frameworks...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of secular ideological frameworks as quasi-religious systems is discussed in sociology and political science. The specific concepts of tribal transcendence and marketplace of worldviews offer useful framing but build on existing secularization theory.",
+      "testable": 6,
+      "testable_reasoning": "Can test through analysis of ideological commitment patterns, civic ritual development, polarization measures, and comparative studies across post-industrial societies. However, operationalizing quasi-religious characteristics is challenging.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding post-industrial social cohesion and polarization. Has implications for democratic governance. However, offers diagnostic framework without clear solutions.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured sociological argument with clear progression from religious decline to ideological proliferation to paradoxical fragmentation to governance challenges.",
+      "final_score": 89,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "aesthetics",
+    "timestamp": "2025-10-30T08:31:28.693781",
+    "proposition": "Traditional Inuit komatiks and stilt-based architecture appear to embody opposing spatial philosophies. The komatik's low, flexibly-jointed frame enables fluid movement across terrain...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The comparative analysis of komatiks and stilt architecture revealing common principle of productive tension between human needs and natural forces is insightful. The aesthetic framework is creative but builds on environmental design theory.",
+      "testable": 4,
+      "testable_reasoning": "Can analyze engineering principles and environmental responses of both forms. However, aesthetic interpretations and claims about spatial philosophy resist objective validation. Primarily qualitative analysis.",
+      "significant": 4,
+      "significant_reasoning": "Interesting for architectural theory and environmental design. Offers aesthetic framework for understanding human-nature relationship. Limited practical implications beyond conceptual insight.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-articulated aesthetic argument with clear progression from apparent opposition to underlying commonality to broader design principles.",
+      "final_score": 73,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T08:31:34.143766",
+    "proposition": "When deliberative assemblies systematically exclude marginalized voices, they create institutional facades that simulate democratic legitimacy while concentrating power among privileged groups...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of exclusionary deliberation and performative democracy is discussed in democratic theory. The specific mechanisms of institutional capture and self-reinforcing exclusion offer useful framework but build on existing critiques.",
+      "testable": 6,
+      "testable_reasoning": "Can test through analysis of participation patterns, procedural barriers, influence networks, and policy outcomes across demographic groups. However, distinguishing structural from individual causes is challenging.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding democratic inclusion and institutional legitimacy. Has implications for democratic reform. However, offers critique without specific solutions beyond general call for dismantling barriers.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured political argument with clear progression from exclusionary mechanisms to institutional capture to legitimacy erosion to authoritarian vulnerability.",
+      "final_score": 86,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T08:31:39.059741",
+    "proposition": "Democratic institutions fail when political communication fragments into isolated channels that separate different segments of the electorate. This information segregation creates self-reinforcing feedback loops...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of information fragmentation and epistemic polarization is well-studied in political science and communication theory. The specific emphasis on incompatible reality frameworks offers useful framing but builds on existing research.",
+      "testable": 7,
+      "testable_reasoning": "Testable through media consumption analysis, belief system studies, network analysis of information flows, and experimental studies of cross-cutting exposure. Clear empirical predictions.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding democratic dysfunction and polarization. Has implications for media policy and democratic reform. However, offers diagnosis without clear solutions.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured political argument with clear progression from fragmentation to feedback loops to epistemic crisis. Ends mid-sentence but core mechanism is well-articulated.",
+      "final_score": 89,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "metaphysics",
+    "timestamp": "2025-10-30T08:31:43.942183",
+    "proposition": "Consciousness faces a fundamental paradox: the very capacity that enables temporal experience simultaneously bars us from accessing time's essential nature...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The paradox of consciousness mediating temporal experience while preventing access to time's nature is discussed in philosophy of time and phenomenology. The specific framing of epistemic imprisonment offers clear articulation.",
+      "testable": 2,
+      "testable_reasoning": "Metaphysical and phenomenological argument that resists empirical testing. Can evaluate philosophical coherence and phenomenological accuracy but not scientifically validate.",
+      "significant": 4,
+      "significant_reasoning": "Important for philosophy of time and consciousness. Offers interesting metaphysical perspective. However, primarily philosophical reflection without practical implications.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-articulated metaphysical argument with clear progression from mediating structure to epistemic barrier to ontological imprisonment.",
+      "final_score": 65,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "mathematics",
+    "timestamp": "2025-10-30T08:31:48.426689",
+    "proposition": "For a filtered ring R with filtration {R_n}, the associated graded ring gr(R) = ⊕R_n/R_{n-1} encodes the asymptotic behavior of R through dimensional growth...",
+    "evaluation": {
+      "novel": 3,
+      "novel_reasoning": "This material on filtered rings, associated graded rings, and Gelfand-Kirillov dimension is standard in non-commutative algebra and ring theory. The connections are well-established in the mathematical literature.",
+      "testable": 9,
+      "testable_reasoning": "Rigorously provable mathematical statements using established techniques from algebra and ring theory. Can be verified through formal proof and computational examples.",
+      "significant": 4,
+      "significant_reasoning": "Important mathematical concepts with applications in non-commutative algebra. However, this represents standard theory rather than new results. Educational value but not advancing mathematics.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear mathematical exposition with rigorous structure. Well-articulated connections between filtrations, growth, and structural properties.",
+      "final_score": 65,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "psychology",
+    "timestamp": "2025-10-30T08:31:53.386257",
+    "proposition": "People resist new ideas most strongly when confronted with unfamiliar content presented in unfamiliar formats simultaneously. This dual novelty overwhelms cognitive capacity...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The concept of dual novelty overwhelming cognitive capacity is related to cognitive load theory and innovation diffusion research. The specific framing of sequential accommodation offers useful framework but builds on existing research.",
+      "testable": 7,
+      "testable_reasoning": "Testable through experimental studies varying content novelty and format novelty independently, measuring acceptance rates, cognitive load, and processing time. Clear empirical predictions.",
+      "significant": 5,
+      "significant_reasoning": "Useful for communication strategy and change management. Has practical applications for innovation adoption. However, offers incremental insight rather than fundamental advancement.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured psychological argument with clear progression from dual novelty to sequential accommodation to cognitive ergonomics.",
+      "final_score": 83,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "neuroscience",
+    "timestamp": "2025-10-30T08:31:58.779419",
+    "proposition": "Neuroimaging studies reveal that individuals with protein-related phobias exhibit hyperactivation in the angular gyrus when viewing specific protein structures...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific claim about angular gyrus hyperactivation in protein-related phobias and cross-network recruitment is unusual. The mechanism involving visuospatial processing networks offers fresh perspective if validated.",
+      "testable": 7,
+      "testable_reasoning": "Testable through neuroimaging studies comparing phobic vs non-phobic individuals, analysis of angular gyrus activation patterns, and examination of visuospatial processing. However, requires establishing that protein-related phobias exist as distinct category.",
+      "significant": 5,
+      "significant_reasoning": "Could be interesting for understanding phobic mechanisms if validated. The treatment implications are relevant. However, depends on establishing the basic phenomenon exists.",
+      "coherent": 7,
+      "coherent_reasoning": "Reasonably coherent neuroscience hypothesis but the existence and prevalence of protein-related phobias is unclear. The mechanism is plausible if the basic phenomenon exists.",
+      "final_score": 87,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "economics",
+    "timestamp": "2025-10-30T08:32:05.345857",
+    "proposition": "Digital asset markets dominated by retail participants exhibit persistent informational inefficiencies that fundamentally challenge efficient market theory...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The analysis of retail-dominated digital asset markets and persistent inefficiencies is well-articulated. The intermediation paradox and structural efficiency gap offer useful framework but build on established market microstructure theory.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through analysis of cryptocurrency market efficiency, price discovery dynamics, arbitrage opportunities, and comparison with traditional markets. Clear empirical predictions.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding cryptocurrency markets and market design. Has implications for financial infrastructure. However, primarily applies existing theory to new context.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured economic argument with clear progression from inefficiency to coordination problem to intermediation paradox. Ends mid-sentence but framework is well-developed.",
+      "final_score": 96,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "computer science",
+    "timestamp": "2025-10-30T08:32:10.397105",
+    "proposition": "Weighted consistent hashing addresses the core challenge of load balancing in heterogeneous distributed systems by allocating hash ring space proportional to node capacity...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "Weighted consistent hashing is an established technique in distributed systems. The specific analysis of its properties and dynamic rebalancing is clear but represents well-known approach in computer science.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through system implementation, performance benchmarking, load distribution analysis, and comparison with other hashing schemes. Clear experimental protocols.",
+      "significant": 5,
+      "significant_reasoning": "Important for distributed systems engineering with practical applications. However, represents established technique rather than novel contribution. Educational and practical value.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear technical exposition with well-articulated benefits, mechanisms, and applications of weighted consistent hashing.",
+      "final_score": 84,
+      "max_possible": 150
+    }
+  }
+]
