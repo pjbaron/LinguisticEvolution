@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "domain": "metaphysics",
+    "timestamp": "2025-10-30T08:39:45.309283",
+    "proposition": "Temporal consciousness exhibits a fundamental asymmetry: each moment moves from indeterminate possibility toward concrete actuality while simultaneously revealing the universal structures that govern this determination...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of temporal consciousness as ontological disclosure combining universal and particular is discussed in phenomenology and process philosophy. The specific framing of asymmetric determination offers clear articulation but builds on Hegel and process thought.",
+      "testable": 2,
+      "testable_reasoning": "Metaphysical and phenomenological argument that resists empirical testing. Can evaluate philosophical coherence and phenomenological accuracy but not scientifically validate.",
+      "significant": 4,
+      "significant_reasoning": "Important for philosophy of time and consciousness. Offers interesting metaphysical perspective on temporal determination. However, primarily philosophical reflection without practical implications.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-articulated metaphysical argument with clear progression from temporal asymmetry to ontological disclosure to co-constitution. Some concepts could be more precisely defined.",
+      "final_score": 61,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 2,
+    "domain": "linguistics",
+    "timestamp": "2025-10-30T08:39:50.506813",
+    "proposition": "English compound words containing 'rubble' demonstrate that phonological reduction in technical vocabulary depends critically on morphological transparency rather than purely phonetic factors...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific analysis of phonological reduction in 'rubble' compounds based on morphological transparency vs lexicalization is interesting. The claim about systematic sound change pathway from transparency to opacity offers useful framework.",
+      "testable": 7,
+      "testable_reasoning": "Testable through phonetic analysis of compound pronunciations, corpus studies of technical vocabulary, psycholinguistic experiments on morphological accessibility, and diachronic analysis of sound change.",
+      "significant": 5,
+      "significant_reasoning": "Interesting for understanding phonological processes in technical vocabulary. Has implications for theories of sound change and morphology-phonology interaction. Impact primarily within linguistics.",
+      "coherent": 8,
+      "coherent_reasoning": "Clear linguistic argument with specific examples and mechanistic explanation. Could benefit from more explicit examples beyond the general pattern.",
+      "final_score": 87,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 3,
+    "domain": "chemistry",
+    "timestamp": "2025-10-30T08:39:56.064111",
+    "proposition": "Occupational inhalation of metal particles deposits iron, copper, and other transition metals in the respiratory tract of blacksmiths and metalworkers. These metals catalyze Fenton reactions...",
+    "evaluation": {
+      "novel": 7,
+      "novel_reasoning": "The specific mechanism linking metal particle inhalation to voice quality changes through Fenton reactions and mucin oxidation is innovative. The application as biomarker for occupational exposure offers fresh perspective.",
+      "testable": 8,
+      "testable_reasoning": "Highly testable through acoustic analysis of metalworker voices, mucin oxidation measurements, metal burden assessment, dose-response studies, and validation of diagnostic sensitivity/specificity.",
+      "significant": 6,
+      "significant_reasoning": "Could be important for occupational health monitoring if validated. Offers non-invasive biomarker approach. However, requires substantial validation before practical application.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned chemical and physiological hypothesis with clear mechanistic progression from metal exposure to mucin modification to vocal changes.",
+      "final_score": 104,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 4,
+    "domain": "logic",
+    "timestamp": "2025-10-30T08:40:02.474501",
+    "proposition": "When red blood cells undergo osmotic stress, they absorb foreign molecules that alter their biochemical composition beyond a critical threshold, triggering irreversible transformation...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of cellular identity as threshold system and emphasis on compositional boundaries is interesting but builds on established cell biology and systems theory. The philosophical implications are clearly articulated.",
+      "testable": 7,
+      "testable_reasoning": "Testable through osmotic stress experiments, biochemical composition analysis, threshold determination studies, and examination of transformation dynamics. Clear experimental predictions.",
+      "significant": 5,
+      "significant_reasoning": "Interesting for understanding cellular identity and biological stability. Has philosophical implications for identity theory. However, primarily offers framework rather than novel biological discovery.",
+      "coherent": 7,
+      "coherent_reasoning": "Reasonably coherent argument connecting cellular biology to identity theory. The classification as 'logic' domain is questionable - this is more biology/philosophy of biology.",
+      "final_score": 81,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 5,
+    "domain": "logic",
+    "timestamp": "2025-10-30T08:40:08.272977",
+    "proposition": "Formal logical systems face a fundamental paradox: the pursuit of rigorous precision necessarily creates dependency on external interpretive frameworks, undermining the very autonomy that formalization seeks to achieve...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of formal systems' dependency on external interpretation and semantic scaffolding is discussed in philosophy of logic and mathematics. The specific framing of the host-system relationship offers clear articulation but builds on existing work.",
+      "testable": 3,
+      "testable_reasoning": "Philosophical and metamathematical argument that resists empirical testing. Can evaluate logical coherence and examine formal consequences but not scientifically validate normative claims.",
+      "significant": 5,
+      "significant_reasoning": "Important for philosophy of logic and mathematics. Offers perspective on mathematical objectivity. However, primarily philosophical reflection on well-known issues (incompleteness, interpretation).",
+      "coherent": 8,
+      "coherent_reasoning": "Well-structured logical argument with clear progression from interpretation dependency to semantic scaffolding to paradox. Ends mid-sentence but core argument is well-articulated.",
+      "final_score": 71,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 6,
+    "domain": "neuroscience",
+    "timestamp": "2025-10-30T08:40:13.549342",
+    "proposition": "Racial bias creates a neurobiological feedback loop that becomes self-reinforcing through stress-mediated changes in social cognition. When individuals encounter racially ambiguous faces...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The specific mechanism linking racial bias to stress-mediated changes in mirror neuron networks is interesting. The self-reinforcing feedback loop through cortisol and categorical processing offers useful framework but builds on existing neuroscience of bias.",
+      "testable": 7,
+      "testable_reasoning": "Testable through neuroimaging studies of mirror neuron responses, cortisol measurements, analysis of categorical processing, and temporal dynamics studies. Clear empirical predictions about neural biomarkers.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding neural basis of prejudice and could inform interventions. However, requires substantial validation and raises questions about individual vs structural approaches to bias.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-reasoned neuroscience hypothesis with clear mechanistic progression from bias to stress to enhanced categorization to neurobiological consolidation.",
+      "final_score": 94,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 7,
+    "domain": "political theory",
+    "timestamp": "2025-10-30T08:40:19.389244",
+    "proposition": "Early digitization of legislative texts in specialized formats like EBCDIC created an unintended form of democratic exclusion by making public information accessible only to those with technical expertise...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The analysis of technical encoding as democratic exclusion and concept of inadvertent civic disenfranchisement is insightful. The emphasis on technical choices as constitutional architecture offers fresh perspective on digital democracy.",
+      "testable": 6,
+      "testable_reasoning": "Can test through analysis of information accessibility, participation patterns correlated with technical literacy, and historical studies of digitization effects. However, establishing causality is challenging with many confounding factors.",
+      "significant": 6,
+      "significant_reasoning": "Important for understanding digital democracy and information accessibility. Has implications for civic information infrastructure design. However, many of the historical technical barriers have been addressed.",
+      "coherent": 9,
+      "coherent_reasoning": "Well-structured political argument with clear progression from technical barriers to democratic exclusion to structural inequality. Ends mid-sentence but framework is well-developed.",
+      "final_score": 90,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 8,
+    "domain": "computer science",
+    "timestamp": "2025-10-30T08:40:24.415873",
+    "proposition": "A distributed consensus algorithm achieves Byzantine fault tolerance through a two-phase architecture: a preprocessing layer that validates state transitions using Merkle trees...",
+    "evaluation": {
+      "novel": 6,
+      "novel_reasoning": "The two-phase architecture separating validation from consensus and using Merkle trees for preprocessing is interesting. The complexity reduction from O(n³) to O(n² log n) offers improvement but builds on established Byzantine consensus techniques.",
+      "testable": 9,
+      "testable_reasoning": "Highly testable through algorithm implementation, performance benchmarking, complexity analysis, fault injection testing, and comparison with existing Byzantine consensus protocols. Clear experimental protocols.",
+      "significant": 6,
+      "significant_reasoning": "Important for distributed systems if it achieves claimed complexity reduction. Could enable larger Byzantine consensus networks. However, practical impact depends on constant factors and real-world performance.",
+      "coherent": 9,
+      "coherent_reasoning": "Clear technical exposition with well-articulated architecture, mechanism, benefits, and limitations. Logical progression from preprocessing to consensus to performance characteristics.",
+      "final_score": 99,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 9,
+    "domain": "metaphysics",
+    "timestamp": "2025-10-30T08:40:29.572441",
+    "proposition": "Consciousness exists in fundamental tension between its drive toward unified selfhood and the irreducible multiplicity of its constituent domains. Bodily sensations operate in immediate present moments...",
+    "evaluation": {
+      "novel": 5,
+      "novel_reasoning": "The analysis of consciousness as productive tension between unity and multiplicity with different temporal rhythms for domains is discussed in phenomenology and philosophy of mind. The specific framing offers clear articulation but builds on existing work.",
+      "testable": 2,
+      "testable_reasoning": "Phenomenological and metaphysical argument that resists empirical testing. Can evaluate phenomenological accuracy and philosophical coherence but not scientifically validate.",
+      "significant": 4,
+      "significant_reasoning": "Important for philosophy of consciousness and self. Offers interesting perspective on unity/multiplicity tension. However, primarily philosophical reflection without practical implications.",
+      "coherent": 8,
+      "coherent_reasoning": "Well-articulated metaphysical argument with clear progression from temporal incommensurability to structural paradox to dynamic field. Some concepts could be more precisely defined.",
+      "final_score": 61,
+      "max_possible": 150
+    }
+  },
+  {
+    "index": 10,
+    "domain": "metaphysics",
+    "timestamp": "2025-10-30T08:40:35.311214",
+    "proposition": "Consciousness operates as the fundamental mediator between being-in-itself and experiential manifestation, actively constituting structured, qualitative phenomena from undifferentiated reality...",
+    "evaluation": {
+      "novel": 4,
+      "novel_reasoning": "The analysis of consciousness as ontological mediator and condition of being's self-manifestation is central to phenomenology and idealist philosophy. The specific articulation is clear but closely follows Hegel, Heidegger, and phenomenological tradition.",
+      "testable": 1,
+      "testable_reasoning": "Highly speculative metaphysical argument that resists empirical testing. Makes claims about being-in-itself and transcendental conditions that are not scientifically accessible.",
+      "significant": 4,
+      "significant_reasoning": "Important for metaphysics and philosophy of consciousness. Offers systematic metaphysical framework. However, primarily recapitulates existing philosophical positions without substantial advancement.",
+      "coherent": 7,
+      "coherent_reasoning": "Reasonably coherent metaphysical argument but makes highly speculative claims about being-in-itself and consciousness's ontological status. Ends mid-sentence.",
+      "final_score": 51,
+      "max_possible": 150
+    }
+  }
+]
