@@ -68,58 +68,62 @@ Propositions are:
 
 ## Pipeline Modes
 
-### Claude Code Integrated Pipeline (claude_integrated_pipeline.py) ⭐ RECOMMENDED
+### Fully Automated Pipeline (process_proposition.py) ⭐ RECOMMENDED
 
-**Interactive workflow with Claude Code:**
+**Zero human intervention - complete automation:**
 
 ```bash
-# Step 1: Refine your proposition
+python process_proposition.py
+```
+
+Enter your proposition once, then everything happens automatically:
+- ✅ 5-stage iterative refinement
+- ✅ Multi-metric evaluation (clarity, coherence, novelty, depth, precision)
+- ✅ ELI Year 12 summary generation
+- ✅ Real-time progress display with emojis
+- ✅ Complete results saved to timestamped file
+
+**Example output:**
+```
+REFINEMENT (5 STAGES)
+----------------------------------------------------------------------
+  ✓ Stage 1/5 complete (234 chars)
+  ✓ Stage 2/5 complete (245 chars)
+  ...
+
+EVALUATION
+----------------------------------------------------------------------
+📊 Evaluation Scores:
+  Clarity       8/10 - The proposition clearly articulates...
+  Coherence     9/10 - Logically structured with consistent...
+  Overall      8.2/10
+
+ELI YEAR 12 SUMMARY
+----------------------------------------------------------------------
+[Plain language explanation displayed here]
+
+✅ Results saved to: outputs/proposition_20251101_143052.json
+```
+
+**Time:** ~10-15 seconds total (7 API calls)
+
+### Claude Code Interactive Workflow (claude_integrated_pipeline.py)
+
+**For when you want human-in-the-loop evaluation:**
+
+```bash
+# Step 1: Automated refinement
 python claude_integrated_pipeline.py
-# Enter your proposition and domain
 
-# Step 2: Copy the output prompt and paste it to Claude Code
-# Claude Code will evaluate, summarize, and save results
+# Step 2: Copy/paste prompt to Claude Code for evaluation
 ```
 
-**Why this workflow?**
-- ✓ Fast automated refinement (5 stages via API)
-- ✓ Claude Code evaluates with full context and conversation
-- ✓ Human-in-the-loop for nuanced evaluation
-- ✓ Transparent evaluation process
-- ✓ Complete results saved to timestamped file
+Useful when you want to:
+- See Claude Code's reasoning process
+- Adjust evaluation criteria interactively
+- Have conversational context
 
-**What it does:**
-1. Script refines your proposition 5 times (automated)
-2. Script saves to `work/proposition_TIMESTAMP.json`
-3. You ask Claude Code to evaluate and summarize (copy-paste prompt)
-4. Claude Code provides evaluation + ELI Year 12 summary
-5. Everything saved to `outputs/proposition_TIMESTAMP.json`
-
-See **[CLAUDE_CODE_WORKFLOW.md](CLAUDE_CODE_WORKFLOW.md)** for full documentation.
-
-### Automated Interactive Pipeline (automated_proposition.py)
-
-**Fully automated single proposition workflow:**
-
-```bash
-# Interactive mode - fully hands-off
-python automated_proposition.py
-```
-
-**What it does:**
-1. Takes your proposition as input
-2. Refines it 5 times iteratively
-3. Evaluates it on 5 metrics (clarity, coherence, novelty, depth, precision)
-4. Generates an ELI Year 12 summary
-5. Saves everything to a timestamped file
-
-**Output includes:**
-- Current processing stage display
-- All evaluation scores with justifications
-- Accessible high-school-level explanation
-- Complete history saved to `outputs/proposition_YYYYMMDD_HHMMSS.json`
-
-See **[AUTOMATED_PIPELINE.md](AUTOMATED_PIPELINE.md)** for full documentation.
+See **[CLAUDE_CODE_WORKFLOW.md](CLAUDE_CODE_WORKFLOW.md)** for details.
 
 ### Simple Pipeline (proposition_pipeline.py)
 
