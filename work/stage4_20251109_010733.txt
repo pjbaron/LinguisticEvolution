@@ -1,0 +1,125 @@
+LLMs exhibit a "planning-execution gap"—they decompose vague requirements into detailed plans but fail systematically when execution requires novel algorithms. This is architectural: LLMs pattern-match over learned code distributions, not perform algorithmic reasoning. Forcing symbolic reasoning onto pattern-matching substrates (hybrid systems, template constraints, planning hierarchies) cannot succeed.
+
+The solution: treat LLM-assisted coding as a **translation problem**. Convert tasks from algorithmic-reasoning space into pattern-recognition space where LLMs operate effectively.
+
+**Capability-Aware Development Framework**
+
+**1. Task Classification (Pre-LLM)**
+
+Classify tasks before engaging the LLM:
+
+- **Pattern-Direct** (80% LLM success): Standard operations with training analogs—CRUD, common algorithms, refactoring, boilerplate, test generation
+- **Pattern-Decomposable** (50% LLM success with reformulation): Novel combinations of standard patterns—custom data structures, business logic, integration code, API implementations
+- **Reasoning-Required** (<20% LLM success): Novel algorithmic work—domain-specific optimizations, new algorithms, performance-critical innovations, complex state machines
+
+Decision rule: Pattern-Direct → LLM direct. Pattern-Decomposable → reformulation workflow. Reasoning-Required → human-first with LLM assistance for boilerplate.
+
+**2. Reformulation Catalog**
+
+Systematic transformation patterns for decomposable tasks:
+
+*Analogy Surfacing*
+```
+Original: "Implement Dijkstra's shortest path"
+Step 1: "Show graph traversal using cost-based selection"
+Step 2: "Add priority queue for next-node selection"
+Step 3: "Track visited nodes and cumulative costs"
+Step 4: "Express in Python with heapq"
+```
+
+*Constraint Translation*
+```
+Original: "Thread-safe LRU cache"
+Step 1: "Generate dict-based cache with get/put"
+Step 2: "Add OrderedDict for access tracking"
+Step 3: "Wrap operations with threading.Lock"
+Step 4: "Add eviction logic on capacity limit"
+```
+
+*Structural Scaffolding*
+```
+Original: "REST API with auth"
+Step 1: "Flask route handlers for CRUD"
+Step 2: "JWT token generation/validation middleware"
+Step 3: "Database model and query patterns"
+Step 4: "Integrate auth checks into routes"
+```
+
+**3. Execution Protocol**
+
+```
+FOR each development task:
+  classification = classify_task(task)
+
+  IF classification == PATTERN_DIRECT:
+    code = llm.generate(task)
+    IF validate(code): return code
+    ELSE: escalate_to_human()
+
+  ELIF classification == PATTERN_DECOMPOSABLE:
+    reformulation = apply_pattern(task)
+    FOR each step IN reformulation:
+      code_fragment = llm.generate(step)
+      IF NOT validate(code_fragment):
+        IF is_retrieval_failure(error):
+          reformulate_step(step)  # retry with better analogy
+        ELSE:
+          escalate_to_human()  # reasoning gap hit
+    code = compose(code_fragments)
+    return code
+
+  ELSE:  # REASONING_REQUIRED
+    human_solution = developer.solve(task)
+    llm_assist = llm.generate_boilerplate(human_solution)
+    return integrate(human_solution, llm_assist)
+```
+
+**4. Tooling Implementation**
+
+**IDE Plugin Architecture:**
+- Task classifier using static analysis + heuristics
+- Reformulation template suggester
+- Inline validation with test execution
+- Success/failure tracking for pattern refinement
+
+**Prompt Template Library:**
+- Organized by language, framework, and pattern type
+- Version controlled with success metrics
+- Community contributions and A/B testing
+- Auto-selection based on task classification
+
+**Feedback Loop:**
+- Track: task classification accuracy, reformulation success rate, time saved vs. direct coding
+- Adapt: refine classification heuristics, update reformulation patterns, identify new pattern categories
+- Learn: build organizational knowledge of which tasks LLMs handle well
+
+**5. Organizational Adoption**
+
+**Phase 1 (Weeks 1-4): Pattern Recognition Training**
+- Teach developers to classify tasks by LLM suitability
+- Build initial reformulation template library (20-30 patterns)
+- Establish validation protocols
+
+**Phase 2 (Months 2-3): Workflow Integration**
+- Deploy IDE plugins with classification assistance
+- Collect success/failure data
+- Refine patterns based on actual results
+
+**Phase 3 (Months 4-6): Optimization**
+- Automate classification where possible
+- Expand pattern library to cover 80% of common tasks
+- Train junior developers in capability-aware prompting
+
+**Expected Outcomes:**
+- 40-60% time reduction on Pattern-Direct tasks
+- 20-30% time reduction on Pattern-Decomposable tasks (after reformulation overhead)
+- Zero time wasted on Reasoning-Required tasks (proper routing)
+- Improved code quality through consistent validation
+
+**6. Economic Model**
+
+Pattern-Direct tasks: High ROI (3-5x speedup with minimal reformulation cost)
+Pattern-Decomposable tasks: Medium ROI (1.5-2x speedup after reformulation investment)
+Reasoning-Required tasks: ROI from boilerplate assistance only (avoid negative ROI from failed LLM attempts)
+
+The paradigm: **LLMs are specialized pattern-matching tools, not general reasoning engines**. Success requires matching tasks to capabilities through explicit classification and reformulation, not forcing universal applicability. Organizations adopting capability-aware development achieve productivity gains by routing work appropriately rather than fighting architectural constraints.

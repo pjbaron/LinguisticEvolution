@@ -1,0 +1,283 @@
+**The Planning-Execution Gap: A Capability-Aware Approach to LLM-Assisted Development**
+
+## The Architectural Reality
+
+LLMs exhibit a systematic "planning-execution gap": they decompose ambiguous requirements into structured implementation plans but fail reliably when execution demands novel algorithmic solutions beyond training data. This isn't a temporary limitation—it's architectural. Neural activation analysis confirms LLMs perform sophisticated pattern-matching over learned code distributions, not algorithmic reasoning.
+
+Current mitigation strategies—hybrid symbolic-linguistic systems, template-constrained generation, hierarchical planning decompositions—constitute architectural denial. These approaches attempt to retrofit reasoning capabilities onto fundamentally pattern-matching substrates and cannot succeed.
+
+## The Productive Alternative: Translation, Not Transformation
+
+Treat LLM-assisted coding as a **translation problem**: convert development tasks from algorithmic-reasoning space (where LLMs fail) into pattern-recognition space (where LLMs excel).
+
+## Capability-Aware Development Framework
+
+### 1. Three-Tier Task Classification
+
+**Before engaging an LLM**, classify tasks by architectural compatibility:
+
+**Tier 1: Pattern-Direct** (80% LLM success rate)
+- Characteristics: Standard operations with strong training distribution analogs
+- Examples: CRUD operations, common algorithm implementations, code refactoring, boilerplate generation, test scaffolding, documentation
+- Strategy: Direct LLM generation with validation
+
+**Tier 2: Pattern-Decomposable** (50% LLM success with reformulation)
+- Characteristics: Novel combinations of standard patterns requiring multi-step synthesis
+- Examples: Custom data structures, business logic implementations, API integration, framework-specific implementations
+- Strategy: Systematic reformulation into pattern-matching steps
+
+**Tier 3: Reasoning-Required** (<20% LLM success)
+- Characteristics: Genuinely novel algorithmic work absent from training distributions
+- Examples: Domain-specific optimizations, new algorithms, performance-critical innovations, complex state machine logic
+- Strategy: Human-first development with LLM assistance for boilerplate only
+
+### 2. Reformulation Pattern Catalog
+
+**Pattern: Analogy Surfacing**
+Translate algorithmic requirements into structural analogies present in training data.
+
+```
+Original Request: "Implement Dijkstra's shortest path algorithm"
+
+Reformulated Chain:
+1. "Generate graph traversal code using cost-based node selection"
+2. "Add priority queue structure for next-node determination"
+3. "Include visited-node tracking with cumulative cost maintenance"
+4. "Express in Python using heapq module patterns"
+
+Rationale: Each step maps to common patterns (graph traversal, priority queues, tracking structures) rather than requiring algorithmic invention.
+```
+
+**Pattern: Constraint Translation**
+Convert domain constraints into structural code patterns.
+
+```
+Original Request: "Implement thread-safe LRU cache with O(1) operations"
+
+Reformulated Chain:
+1. "Create dictionary-based cache with get/put methods"
+2. "Add OrderedDict for access-order tracking"
+3. "Wrap all operations with threading.Lock patterns"
+4. "Implement size-based eviction on capacity limit"
+
+Rationale: Breaks threading+caching+performance into independent structural patterns the LLM recognizes.
+```
+
+**Pattern: Structural Scaffolding**
+Decompose system-level requirements into component-level patterns.
+
+```
+Original Request: "Build REST API with JWT authentication"
+
+Reformulated Chain:
+1. "Generate Flask route handlers for standard CRUD endpoints"
+2. "Add JWT token generation and validation middleware"
+3. "Create SQLAlchemy database models and query patterns"
+4. "Integrate authentication decorators into route handlers"
+
+Rationale: Each step is a well-represented pattern in web framework examples.
+```
+
+### 3. Execution Protocol with Adaptive Fallback
+
+```python
+def capability_aware_generate(task):
+    classification = classify_task(task)
+
+    if classification == PATTERN_DIRECT:
+        code = llm.generate(task)
+        if validate(code):
+            return code
+        else:
+            # Direct generation failed—may have misclassified
+            return escalate_to_human(task, reason="validation_failure")
+
+    elif classification == PATTERN_DECOMPOSABLE:
+        reformulation = select_reformulation_pattern(task)
+        code_fragments = []
+
+        for step in reformulation.steps:
+            fragment = llm.generate(step)
+            validation_result = validate(fragment, step.tests)
+
+            if validation_result.failed:
+                if is_pattern_retrieval_failure(validation_result.error):
+                    # LLM couldn't find the pattern—try alternative formulation
+                    fragment = retry_with_alternative_analogy(step)
+                else:
+                    # Hit a reasoning gap—escalate this specific step
+                    fragment = request_human_solution(step)
+
+            code_fragments.append(fragment)
+
+        integrated_code = compose_fragments(code_fragments, reformulation.composition_template)
+        return validate_and_return(integrated_code)
+
+    else:  # REASONING_REQUIRED
+        # Human handles core logic, LLM assists with patterns
+        requirements = extract_requirements(task)
+        human_solution = developer.solve_novel_algorithm(requirements)
+        boilerplate = llm.generate_supporting_code(human_solution.interface)
+        return integrate(human_solution, boilerplate)
+```
+
+### 4. Tooling Architecture
+
+**IDE Plugin System**
+
+*Task Classifier*
+- Analyzes task descriptions using keyword matching + complexity heuristics
+- Checks for novel constraint combinations indicating Tier 3
+- Suggests classification with confidence score
+- Learns from user corrections
+
+*Reformulation Suggester*
+- Pattern library organized by language, framework, domain
+- Template matching based on task structure
+- Shows example reformulations for similar historical tasks
+- Allows custom pattern creation and sharing
+
+*Validation Engine*
+- Executes generated code against test cases
+- Performs static analysis for common errors
+- Classifies failures as pattern-retrieval vs. reasoning-gap
+- Provides reformulation hints for retrieval failures
+
+*Feedback Loop*
+- Tracks: classification accuracy, reformulation success rates, time metrics
+- Adapts: refines classification heuristics, updates pattern templates
+- Learns: builds organization-specific pattern libraries
+
+**Prompt Template Library**
+
+```
+Structure:
+/patterns
+  /python
+    /data-structures
+      linked-list-operations.yaml
+      tree-traversal.yaml
+    /web-frameworks
+      flask-crud-api.yaml
+      django-auth.yaml
+  /javascript
+    /react
+      state-management.yaml
+      component-patterns.yaml
+
+Each template includes:
+- Pattern name and description
+- Tier classification
+- Step-by-step reformulation
+- Validation criteria
+- Success rate metrics
+- Example usage
+```
+
+### 5. Organizational Adoption Roadmap
+
+**Phase 1: Pattern Recognition Training (Weeks 1-4)**
+
+Objectives:
+- Train 20 developers in task classification
+- Build initial 25-pattern template library covering common project needs
+- Establish validation protocols and success metrics
+
+Deliverables:
+- Classification decision tree
+- Pattern template repository
+- Training materials and documentation
+
+**Phase 2: Workflow Integration (Months 2-3)**
+
+Objectives:
+- Deploy IDE plugins to 50% of development team
+- Collect real-world success/failure data
+- Iterate on pattern templates based on actual usage
+
+Deliverables:
+- Plugin with classification + reformulation assistance
+- Analytics dashboard tracking tier distribution and success rates
+- Refined pattern library (35-40 templates)
+
+**Phase 3: Scaling and Optimization (Months 4-6)**
+
+Objectives:
+- Roll out to full organization
+- Automate classification for common task types
+- Achieve 80% coverage of routine development with pattern library
+
+Deliverables:
+- Automated classification for Tier 1 tasks
+- Expanded pattern library (60+ templates)
+- Junior developer training program in capability-aware prompting
+
+**Expected Outcomes:**
+- **Tier 1 tasks**: 40-60% time reduction (3-5x speedup)
+- **Tier 2 tasks**: 20-30% time reduction after reformulation overhead (1.5-2x speedup)
+- **Tier 3 tasks**: Zero time wasted on unsuitable LLM attempts; ROI from boilerplate assistance only
+- **Code quality**: Improved consistency through validation requirements
+- **Developer satisfaction**: Reduced frustration from failed LLM interactions
+
+### 6. Economic and Strategic Model
+
+**Cost-Benefit by Tier:**
+
+*Tier 1 (Pattern-Direct)*: High ROI
+- Minimal reformulation cost
+- High success rate (80%)
+- Maximum time savings (3-5x)
+- Example: Generating CRUD endpoints saves 2-3 hours → 30 minutes
+
+*Tier 2 (Pattern-Decomposable)*: Medium ROI
+- Moderate reformulation investment (5-10 minutes)
+- Improved success rate (50% → 70% with good patterns)
+- Meaningful time savings (1.5-2x)
+- Example: Custom API integration 4 hours → 2.5 hours
+
+*Tier 3 (Reasoning-Required)*: Avoid Negative ROI
+- Direct LLM attempts waste time (2-3 failed iterations)
+- Proper routing prevents frustration
+- Modest gains from boilerplate assistance
+- Example: Novel optimization algorithm—human solves core, LLM generates test scaffolding
+
+**Strategic Implications:**
+
+1. **Skill Development**: Junior developers learn pattern recognition and reformulation as core competencies alongside traditional algorithmic thinking
+2. **Project Planning**: Estimate task complexity partially by LLM tier, allocating senior developers to Tier 3 work
+3. **Quality Assurance**: Validation-driven development becomes standard, catching errors earlier
+4. **Knowledge Management**: Pattern libraries become organizational assets, capturing institutional knowledge about effective reformulations
+5. **Tool Integration**: LLM-assistance becomes infrastructure, not ad-hoc prompting
+
+### 7. Anti-Patterns and Failure Modes
+
+**Anti-Pattern: Universal Delegation**
+*Mistake*: Sending all tasks to LLM regardless of tier
+*Result*: Wasted time on Tier 3 failures, frustration, loss of confidence in LLM tooling
+*Solution*: Enforce classification step, track Tier 3 escalations
+
+**Anti-Pattern: Over-Reformulation**
+*Mistake*: Decomposing Tier 1 tasks into unnecessary substeps
+*Result*: Reformulation overhead exceeds direct generation time
+*Solution*: Use direct generation for clearly pattern-matched tasks
+
+**Anti-Pattern: Under-Validation**
+*Mistake*: Accepting LLM output without testing
+*Result*: Subtle bugs, security vulnerabilities, incorrect implementations
+*Solution*: Mandatory validation step in execution protocol
+
+**Failure Mode: Pattern Drift**
+*Cause*: Training data shifts, framework updates change common patterns
+*Symptom*: Previously successful reformulations start failing
+*Mitigation*: Version-track pattern templates, A/B test updates, monitor success rates over time
+
+## The Paradigm
+
+LLMs are **specialized pattern-matching tools operating over learned code distributions**, not general-purpose reasoning engines. Success in LLM-assisted development requires:
+
+1. **Explicit classification** of tasks by architectural compatibility
+2. **Systematic reformulation** of decomposable tasks into pattern-recognition operations
+3. **Proper routing** of reasoning-heavy work to human developers
+4. **Continuous learning** through validation feedback and pattern refinement
+
+Organizations adopting capability-aware development achieve productivity gains by **matching tasks to capabilities** rather than forcing universal applicability. The future of effective LLM integration lies not in making models "smarter" but in making development workflows architecturally informed—designing processes that route work appropriately and reformulate problems to align with actual model capabilities.

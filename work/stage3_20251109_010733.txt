@@ -1,0 +1,51 @@
+LLMs exhibit a "planning-execution gap": they decompose vague requirements into detailed plans but systematically fail when execution requires novel algorithms. This is architectural—LLMs pattern-match over learned code distributions rather than perform algorithmic reasoning.
+
+Forcing symbolic reasoning onto pattern-matching architectures cannot work. Hybrid systems, template constraints, and planning hierarchies constitute architectural denial.
+
+The productive approach: treat LLM-assisted coding as a **translation problem**. Convert tasks from algorithmic-reasoning space into pattern-recognition space where LLMs operate effectively.
+
+**Practical Reformulation Framework**
+
+**Level 1: Task Classification**
+Before engaging an LLM, classify the task:
+- **Pattern-solvable**: Standard operations with training distribution analogs (CRUD, common algorithms, refactoring, boilerplate)
+- **Decomposable**: Novel combinations of standard patterns (custom data structures, business logic, integration code)
+- **Reasoning-required**: Genuinely novel algorithmic work (domain-specific optimizations, new algorithms, performance-critical code)
+
+Use LLMs for Level 1, decompose Level 2, route Level 3 to human developers.
+
+**Level 2: Reformulation Patterns**
+
+For decomposable tasks, apply systematic transformations:
+
+*Pattern: Analogy surfacing*
+- Original: "Implement Dijkstra's algorithm"
+- Reformulated: "Show me graph traversal patterns that select paths by cumulative cost" → "Adapt to maintain priority queue invariants" → "Map to Python syntax"
+
+*Pattern: Constraint translation*
+- Original: "Implement thread-safe cache with LRU eviction"
+- Reformulated: "Show me dictionary access patterns" → "Add ordering metadata" → "Wrap with lock patterns" → "Combine into class structure"
+
+*Pattern: Structural scaffolding*
+- Original: "Build REST API with authentication"
+- Reformulated: "Generate route handlers" → "Add JWT middleware patterns" → "Connect to database patterns" → "Compose into application"
+
+**Level 3: Hybrid Workflow Protocol**
+
+Execute decomposed tasks in cycles:
+
+1. **Attempt**: Submit reformulated prompt to LLM
+2. **Validate**: Check output against test cases or specifications
+3. **Diagnose**: If validation fails, determine whether failure is pattern-retrieval (recoverable via reformulation) or reasoning-gap (requires human intervention)
+4. **Iterate or escalate**: Refine reformulation if pattern-retrieval failure, escalate to human for reasoning-gap
+
+This creates a **capability-aware development loop** where LLMs handle pattern-matching efficiently while humans focus on genuine reasoning tasks.
+
+**Immediate Applications**
+
+- IDE plugins that auto-classify tasks and suggest reformulations
+- Prompt template libraries organized by task category
+- Feedback loops tracking which reformulations succeed/fail
+- Team workflows explicitly separating pattern-friendly from reasoning-heavy work
+
+The paradigm shift: stop treating LLMs as general-purpose reasoning engines. Treat them as **specialized pattern-matching tools** and design development processes that route work appropriately. Success comes from matching capabilities to tasks, not forcing universal applicability.

@@ -1,0 +1,9 @@
+LLMs demonstrate a reproducible "planning-execution gap": they excel at decomposing ambiguous requirements into structured implementation plans, yet fail systematically when execution demands novel algorithmic solutions absent from training data. This occurs because they perform sophisticated pattern-matching over learned code distributions rather than genuine algorithmic reasoning.
+
+Most current solutions—hybrid symbolic-linguistic frameworks, constrained template systems, hierarchical planning decompositions—attempt to force reasoning capabilities onto fundamentally pattern-matching architectures. This represents an architectural category error that cannot succeed.
+
+The productive alternative inverts the problem: instead of retrofitting reasoning onto LLMs, systematically reformulate development tasks to leverage their actual strengths—pattern recognition across code structures, analogical transfer between similar problem domains, and hierarchical linguistic transformation.
+
+Practical application: developers should decompose coding tasks into pattern-friendly operations. Rather than requesting "implement novel algorithm X," restructure as: identify analogous patterns from training distribution, transform those patterns through explicit intermediate representations, then map to target implementation via learned syntactic structures. Each step exploits native LLM capabilities.
+
+This paradigm shift has immediate implications: development workflows should incorporate explicit problem reformulation as a first-class activity, prompt engineering should focus on surfacing appropriate analogies rather than forcing direct synthesis, and tooling should help identify which tasks align with LLM strengths versus those requiring traditional algorithmic approaches. The goal is capability-aware development—matching problems to appropriate solution methods rather than forcing universal applicability.

@@ -1,0 +1,21 @@
+LLMs exhibit a consistent "planning-execution gap": they decompose vague requirements into detailed plans but fail when execution requires novel algorithms beyond training data. This isn't a fixable bug—it's architectural. LLMs perform pattern-matching over code distributions, not algorithmic reasoning.
+
+Current solutions attempt architectural denial: forcing symbolic reasoning onto pattern-matching substrates through hybrid systems, template constraints, or planning hierarchies. These cannot succeed because they fight the underlying architecture.
+
+The solution is problem reformulation, not model modification. Developers should treat LLM-assisted coding as a translation problem: convert tasks from "algorithmic reasoning space" into "pattern recognition space" where LLMs operate natively.
+
+Concrete reformulation strategy:
+
+1. **Analogy identification**: Instead of "implement Dijkstra's algorithm," ask "find code patterns similar to shortest-path search in weighted graphs"
+2. **Explicit intermediate steps**: Break synthesis into visible transformations: narrative description → pseudocode structure → syntactic mapping
+3. **Constraint-to-pattern translation**: Convert algorithmic requirements into structural patterns the LLM recognizes
+
+Example: For "implement a binary search tree balancing operation," reformulate as: "show me examples of tree rotation patterns" → "adapt these patterns to maintain height invariants" → "express in target language syntax." Each step leverages pattern-matching rather than algorithmic invention.
+
+This enables immediate workflow improvements:
+
+- **Task triaging**: Classify requests as "pattern-friendly" (CRUD, standard algorithms, refactoring) versus "reasoning-required" (novel optimizations, domain-specific innovations)
+- **Prompt design patterns**: Build reusable reformulation templates for common task categories
+- **Hybrid workflows**: Use LLMs for pattern-matching steps, reserve human/symbolic systems for genuine reasoning gaps
+
+The key insight: LLM capabilities aren't limitations to overcome but constraints to design around. Capability-aware development treats model architecture as a fixed interface specification, then optimizes problem formulation to match that interface.
