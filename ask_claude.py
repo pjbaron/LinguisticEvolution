@@ -40,25 +40,43 @@ def main():
     print("COPY AND PASTE THIS TO CLAUDE CODE:")
     print("="*70 + "\n")
 
-    request = f"""Process this proposition through the full pipeline:
+    request = f"""I need you to refine, evaluate, and summarize the following academic proposition:
 
-Proposition: {proposition}
-Domain: {domain}
+**Proposition:** {proposition}
+**Domain:** {domain}
 
-Steps:
-1. Refine it 5 times iteratively (show each stage briefly)
-2. Evaluate the final version on these metrics (1-10 scale):
-   - Clarity: How easy is it to understand?
-   - Coherence: How logically consistent is it?
-   - Novelty: How original is the insight?
-   - Depth: How intellectually rich is it?
-   - Precision: How well-defined are the terms?
+Please complete these tasks:
 
-   For each metric, provide the score and a one-sentence justification.
+**TASK 1: Iterative Refinement (5 stages)**
+Refine this proposition 5 times. For each refinement:
+- Act as an expert in {domain}
+- Make the core idea clearer and more precise
+- Improve logical flow and remove unnecessary content
+- Add valuable insights
+- Output ONLY the refined proposition text (no meta-commentary)
 
-3. Generate an ELI Year 12 summary (2-3 paragraphs, plain language)
+Show a brief preview of each of the 5 refined versions.
 
-4. Save everything to outputs/proposition_{timestamp}.json
+**TASK 2: Evaluation (score 1-10 on each metric)**
+Evaluate the final refined version on these five metrics:
+- **Clarity:** How easy is it to understand the core claim?
+- **Coherence:** How logically consistent and well-structured is it?
+- **Novelty:** How original or non-obvious is the insight?
+- **Depth:** How substantive and intellectually rich is it?
+- **Precision:** How specific and well-defined are the terms?
+
+For each metric, provide both a score (1-10) and a one-sentence justification.
+Calculate the overall average score.
+
+**TASK 3: ELI Year 12 Summary**
+Create a plain-language explanation suitable for a high school senior (age 17-18):
+- 2-3 paragraphs
+- Use accessible language and relatable examples
+- Explain technical terms when needed
+- Make it engaging and relevant
+
+**TASK 4: Save Results**
+Save all results to: outputs/proposition_{timestamp}.json
 
 Use this JSON structure:
 {{
