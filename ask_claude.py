@@ -47,13 +47,18 @@ def main():
 
 Please complete these tasks:
 
-**TASK 1: Iterative Refinement (5 stages with genuine iteration)**
-Perform 5 refinement stages with TRUE iteration using file-based chaining:
+**TASK 1: Iterative Refinement (5 stages)**
+
+IMPORTANT: Each refinement must genuinely build on the previous one. To ensure this happens (rather than generating all 5 versions mentally at once), you must use file-based iteration where you save each stage and then READ it back before refining further.
+
+**Why file-based iteration?** Reading from a file forces you to actually process the previous refinement rather than just simulating what iteration might look like. This produces genuine improvement across stages.
 
 **Stage 1:**
-Starting with the original proposition, refine it using this expert perspective:
+Refine the original proposition using this framing:
 
-"You are an expert in {domain}. A colleague has shared this proposition: '[original proposition]'
+"You are an expert in {domain}. A colleague has shared this proposition with you:
+
+'{proposition}'
 
 Please improve it by:
 1. Making the core idea more clear and precise
@@ -67,28 +72,29 @@ Output ONLY the improved proposition text (no meta-commentary)."
 Save the refined version to: work/stage1_{timestamp}.txt
 
 **Stage 2:**
-Read the content from work/stage1_{timestamp}.txt
-Apply the same refinement process to what you just read.
+Read the content from: work/stage1_{timestamp}.txt
+Now act as the expert again and apply the same 5-point refinement process to what you just read (treating it as a colleague's proposition).
 Save the result to: work/stage2_{timestamp}.txt
 
 **Stage 3:**
-Read the content from work/stage2_{timestamp}.txt
-Apply the same refinement process to what you just read.
+Read the content from: work/stage2_{timestamp}.txt
+Apply the expert refinement process again (5 improvement points above).
 Save the result to: work/stage3_{timestamp}.txt
 
 **Stage 4:**
-Read the content from work/stage3_{timestamp}.txt
-Apply the same refinement process to what you just read.
+Read the content from: work/stage3_{timestamp}.txt
+Apply the expert refinement process again (5 improvement points above).
 Save the result to: work/stage4_{timestamp}.txt
 
 **Stage 5:**
-Read the content from work/stage4_{timestamp}.txt
-Apply the same refinement process to what you just read.
+Read the content from: work/stage4_{timestamp}.txt
+Apply the expert refinement process again (5 improvement points above).
 Save the result to: work/stage5_{timestamp}.txt
 
-This file-based approach ensures each refinement ACTUALLY builds on the previous one.
-
-After completing all stages, show a brief summary of how the proposition evolved across the 5 stages.
+After completing all stages, show a brief summary describing:
+- How the proposition evolved from the original to the final version
+- What major concepts or improvements were added
+- How the length/complexity changed
 
 **TASK 2: Evaluation (score 1-10 on each metric)**
 Evaluate the final refined version on these five metrics:
