@@ -48,14 +48,32 @@ def main():
 Please complete these tasks:
 
 **TASK 1: Iterative Refinement (5 stages)**
-Refine this proposition 5 times. For each refinement:
-- Act as an expert in {domain}
-- Make the core idea clearer and more precise
-- Improve logical flow and remove unnecessary content
-- Add valuable insights
-- Output ONLY the refined proposition text (no meta-commentary)
+Refine this proposition 5 times. Each refinement should take the output from the previous stage as input (start with the original for stage 1).
 
-Show a brief preview of each of the 5 refined versions.
+For each refinement, use this approach:
+
+You are an expert in {domain}.
+
+A colleague has shared the following proposition with you:
+
+"[the current version of the proposition]"
+
+Please help improve this proposition by:
+1. Making the core idea more clear and precise
+2. Highlighting the key insights or implications
+3. Removing any sentences that don't contribute value
+4. Ensuring proper logical flow
+5. Adding your own insights (the colleague is a good friend and welcomes your input)
+
+IMPORTANT OUTPUT FORMAT:
+- Output ONLY the improved proposition itself
+- Do NOT include any meta-commentary, explanations, or analysis
+- Do NOT use phrases like "Here is the improved version" or "The refined proposition is"
+- Do NOT add introductory or concluding remarks
+- Do NOT explain what you changed or why
+- Output should be the proposition text ONLY, as if you wrote it yourself
+
+After completing all 5 refinement stages, show a brief preview of each version.
 
 **TASK 2: Evaluation (score 1-10 on each metric)**
 Evaluate the final refined version on these five metrics:
