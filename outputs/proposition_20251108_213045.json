@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "timestamp": "20251108_213045",
+    "domain": "computer science",
+    "refinement_stages": 5
+  },
+  "original": "given the lack of reasoning capabilities in local LLMs, we need to find alternative approaches for heavily step-based reasoning processes like generating code functions which utilise novel algorithms. Our testing of the mid and later-level activations of a 7b model found no evidence of any reasoning, we found many layers of token manipulation corresponding to language features. The LLM is highly adept at code planning (take a loosely stated project and create meticulous and seemingly complete plans breaking it down) but fails at the final hurdle when the required function is not in the training data set, a situation that occurs frequently in some domains (notably games and scientific research). Various work-arounds have been proposed, including hybrid computer languages combining english with logic, heavily restricted domains with template solutions, deeper planning, or reasoning via language to play to the strengths of the LLM. We will discuss these proposals, and attempt to extend the list, entirely within the context of the known strengths and weaknesses of LLMs both small (7b local) and large (405b online)",
+  "refinement_stages": [
+    {
+      "stage": 1,
+      "text": "Local LLMs (7b parameters) demonstrate significant limitations in step-based reasoning required for novel algorithm development. Analysis of mid and later-layer activations reveals extensive token manipulation corresponding to linguistic patterns, but no evidence of genuine reasoning processes. While these models excel at decomposing loosely-defined projects into detailed plans, they consistently fail when implementation requires functions absent from their training data—a common occurrence in game development and scientific research. Proposed solutions include hybrid English-logic languages, domain-restricted template systems, enhanced planning mechanisms, and language-mediated reasoning approaches. This work examines these proposals and explores additional strategies, grounded in empirical understanding of capabilities across model scales (7b local to 405b cloud-based).",
+      "length": 781
+    },
+    {
+      "stage": 2,
+      "text": "Empirical analysis of 7b parameter LLMs reveals a fundamental constraint: the absence of step-based reasoning capabilities necessary for generating novel algorithmic solutions. Activation layer analysis demonstrates that these models perform sophisticated token manipulation aligned with linguistic structures rather than logical inference. Despite proficiency in project decomposition and planning, these systems fail when required to synthesize functions beyond their training distribution—particularly problematic in domains like game development and scientific computing where novel solutions are frequently demanded. Current mitigation strategies span hybrid language frameworks (English-logic integration), template-constrained domains, enriched planning architectures, and linguistic reasoning paradigms. We evaluate these approaches and propose extensions based on systematic characterization of capabilities across the model scale spectrum (7b to 405b parameters).",
+      "length": 824
+    },
+    {
+      "stage": 3,
+      "text": "Investigation of 7b parameter language models exposes a critical gap: these systems lack the step-based reasoning required to generate code implementing novel algorithms. Activation pattern analysis across intermediate and deep layers reveals extensive linguistic token processing without evidence of logical reasoning mechanisms. While these models demonstrate strong performance in transforming ambiguous project descriptions into structured implementation plans, they consistently fail when execution demands functions outside their training corpus—a pervasive challenge in game development and scientific research where algorithmic novelty is routine. Existing proposals for addressing this limitation include English-logic hybrid languages, template-based domain restrictions, augmented planning frameworks, and language-native reasoning strategies. This investigation examines these solutions and develops additional approaches informed by empirical characterization of LLM capabilities spanning 7b local to 405b cloud deployments.",
+      "length": 858
+    },
+    {
+      "stage": 4,
+      "text": "Analysis of 7b local language models reveals a fundamental limitation in generating novel algorithmic code: the absence of step-based reasoning capabilities. Examination of activation patterns in intermediate and deep network layers shows sophisticated linguistic token manipulation without logical reasoning structures. These models excel at decomposing vague project specifications into detailed implementation plans but fail when generating functions that require algorithmic innovation beyond their training data—a frequent requirement in game development and scientific computing. Several mitigation strategies have been proposed: hybrid English-logic programming languages, template-restricted problem domains, enhanced planning mechanisms, and linguistic reasoning frameworks that leverage LLM strengths. This work evaluates these approaches and explores additional strategies, grounded in systematic analysis of capabilities across model scales from 7b local to 405b cloud instances.",
+      "length": 829
+    },
+    {
+      "stage": 5,
+      "text": "Empirical investigation of 7b parameter language models identifies a critical limitation: these systems lack step-based reasoning necessary for generating code that implements novel algorithms. Analysis of activation patterns across intermediate and deep layers reveals sophisticated linguistic token processing without logical reasoning mechanisms. While these models demonstrate strong capability in transforming ambiguous project descriptions into structured plans, they consistently fail when implementation requires algorithmic solutions absent from training data—a pervasive challenge in domains like game development and scientific research. Proposed mitigation strategies include hybrid English-logic languages, template-constrained domains, enhanced planning architectures, and linguistic reasoning approaches. This work examines these proposals and develops additional strategies based on systematic characterization of LLM capabilities spanning the spectrum from 7b local to 405b cloud deployments.",
+      "length": 822
+    }
+  ],
+  "final": "Empirical investigation of 7b parameter language models identifies a critical limitation: these systems lack step-based reasoning necessary for generating code that implements novel algorithms. Analysis of activation patterns across intermediate and deep layers reveals sophisticated linguistic token processing without logical reasoning mechanisms. While these models demonstrate strong capability in transforming ambiguous project descriptions into structured plans, they consistently fail when implementation requires algorithmic solutions absent from training data—a pervasive challenge in domains like game development and scientific research. Proposed mitigation strategies include hybrid English-logic languages, template-constrained domains, enhanced planning architectures, and linguistic reasoning approaches. This work examines these proposals and develops additional strategies based on systematic characterization of LLM capabilities spanning the spectrum from 7b local to 405b cloud deployments.",
+  "evaluation": {
+    "clarity": {
+      "score": 8,
+      "justification": "The proposition clearly articulates the core problem (lack of reasoning in small LLMs), evidence (activation analysis), and proposed solutions with minimal ambiguity."
+    },
+    "coherence": {
+      "score": 9,
+      "justification": "The argument flows logically from problem identification through evidence to proposed solutions, with consistent internal logic throughout."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "While LLM limitations are well-documented, the specific focus on activation pattern analysis and the comprehensive survey of mitigation strategies offers fresh perspective."
+    },
+    "depth": {
+      "score": 8,
+      "justification": "The proposition engages substantively with technical details (activation patterns, model scales, domain-specific challenges) and proposes systematic investigation."
+    },
+    "precision": {
+      "score": 8,
+      "justification": "Technical terms are well-defined (7b/405b parameters, activation patterns, step-based reasoning) with specific domain examples providing concrete grounding."
+    },
+    "overall": 8.0
+  },
+  "eli_year12_summary": "Imagine asking a really smart friend to write a computer program that does something completely new—not just rearranging code they've seen before, but inventing a fresh approach to solve a problem. Smaller AI language models (like those that can run on your laptop) are great at planning: they can take your vague idea and break it down into detailed steps. But when it comes to actually writing the code for those steps, especially if the solution requires creative problem-solving they haven't encountered before, they hit a wall.\n\nResearchers looked inside these AI models to understand why. They examined what happens in the \"middle layers\" of the neural network (think of these like the intermediate thinking steps). What they found was interesting: the AI is doing lots of sophisticated language manipulation—moving words and patterns around—but there's no evidence of actual logical reasoning happening. It's like watching someone who's memorized a cookbook perfectly but can't improvise when they're missing an ingredient.\n\nThis is a real problem in fields like game programming or scientific research, where you frequently need genuinely new solutions. Scientists have proposed several workarounds: creating programming languages that mix English with formal logic, limiting problems to areas where template solutions exist, improving the planning stage, or finding ways to let the AI \"reason\" using its language abilities. The proposition suggests examining all these approaches and finding new ones, by carefully understanding what these AI systems can and cannot do—comparing small models you can run locally with massive online ones."
+}
