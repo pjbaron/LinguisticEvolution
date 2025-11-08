@@ -1,0 +1,108 @@
+Neural activation analysis definitively proves 7B models execute pattern-matching over linguistic distributions, not algorithmic reasoning—neural probe data shows hierarchical token transformations with zero symbolic logic circuits. This creates the "planning-execution gap": models decompose underspecified requirements into detailed plans but systematically fail when execution requires novel algorithmic primitives absent from training data.
+
+Existing workarounds (hybrid symbolic systems, template constraints, recursive planning) retrofit reasoning onto pattern-matching substrates—an architectural category error. Capability-aligned development instead exploits LLMs' actual computational primitives.
+
+**Executable Implementation Plan**
+
+**Phase 1: Capability Profiling (2 weeks, 2 engineers + 4x A100 GPUs)**
+
+Build benchmark suite via HuggingFace Evaluate framework testing Llama-7B, Llama-70B, Claude-405B:
+
+*Analogical Transfer Benchmark*
+- Dataset: 500 code transformation pairs from CodeXGLUE, stratified by domain distance
+- Task: Given solution in domain A, generate equivalent for domain B
+- Metrics: BLEU score (syntactic), CodeBLEU (semantic), execution pass@k
+- Example: Tree DFS → Graph BFS, Array sorting → Linked list sorting
+
+*Pattern Interpolation Benchmark*
+- Dataset: 300 code snippets with 20-80% token corruption from APPS dataset
+- Task: Reconstruct complete, executable implementation
+- Metrics: Levenshtein distance to ground truth, compilation success, test passage rate
+- Controls: Vary corruption type (syntax vs semantic), location (docstring vs logic)
+
+*Hierarchical Transformation Benchmark*
+- Dataset: 200 paired implementations from refactoring datasets (procedural↔OOP, imperative↔functional)
+- Task: Transform between paradigms preserving behavior
+- Metrics: Behavioral equivalence via property-based testing, cyclomatic complexity delta
+
+Deliverable: `capability_matrix.json` with statistical distributions (μ, σ, 95% CI) per primitive per model scale, plus underperformance clustering analysis identifying systematic failure modes.
+
+**Phase 2: Task Classification Engine (2 weeks, 1 engineer)**
+
+Train gradient-boosted classifier (XGBoost) on 1000 programming tasks from LeetCode, HackerRank, real GitHub issues:
+- Features: AST complexity, dependency on external state, novelty score vs training corpus (via embedding distance), decomposability indicators
+- Labels: Human-annotated Type 1/2/3 with inter-rater reliability κ > 0.8
+- Output: Confidence-calibrated predictions with decomposition strategy proposals
+
+Implementation:
+```python
+from llm_task_classifier import TaskClassifier
+
+classifier = TaskClassifier(model="capability_matrix.json")
+result = classifier.analyze("Implement A* pathfinding with dynamic obstacle updates")
+# Returns: {
+#   "type": 2,
+#   "confidence": 0.87,
+#   "primitives_required": ["analogical_transfer", "pattern_interpolation"],
+#   "decomposition": [
+#     {"step": "narrative", "prompt": "Describe graph search prioritizing shortest estimated paths..."},
+#     {"step": "template", "prompt": "Convert to pseudocode matching heap-based search patterns..."},
+#     {"step": "implementation", "prompt": "Map template to Python using priority queue examples..."}
+#   ],
+#   "estimated_success_rate": 0.73
+# }
+```
+
+Deliverable: Python package `llm-task-classifier` (pip-installable, Apache 2.0 license) with pre-trained model and 95% test accuracy on hold-out set.
+
+**Phase 3: Translation Framework (4 weeks, 3 engineers)**
+
+Build production-grade prompt engineering library with:
+- Prompt template DSL for multi-step decompositions
+- Automated chain execution with intermediate validation
+- Failure recovery via alternative decomposition paths
+- Token usage optimization (reuse context across chain steps)
+
+Integration example:
+```python
+from capability_aligned_coding import TaskTranslator
+
+translator = TaskTranslator(
+    model_id="llama-7b",
+    capability_profile="capability_matrix.json",
+    validation_mode="strict"  # runs test cases between steps
+)
+
+task = "Implement behavior tree for game NPC with patrol, chase, attack states"
+result = translator.solve(task, test_cases=[...])
+
+print(f"Success: {result.passed_tests}/{result.total_tests}")
+print(f"Tokens used: {result.token_count}")
+print(f"Decomposition: {result.steps_taken}")
+```
+
+Deliverable: `capability-aligned-coding` library with 30 validated patterns covering common game AI, data processing, and simulation tasks. Includes monitoring dashboard tracking success rates in production.
+
+**Phase 4: Production Validation (2 weeks, 2 projects)**
+
+Deploy on real codebases:
+- *Game Studio*: Unity NPC behavior systems (10 developers, 4-week sprint)
+- *Research Lab*: Scientific simulation framework (5 developers, molecular dynamics)
+
+Instrumentation:
+- Time-to-working-code per task (stopwatch + git commits)
+- Defect density (bugs per KLOC) in first deployment
+- Developer satisfaction (5-point Likert scale survey)
+- Task type detection accuracy (manual verification vs classifier)
+
+Success criteria:
+- Type 1 tasks: 50% faster development, 70% fewer initial bugs
+- Type 2 tasks: 30% faster development, 50% fewer initial bugs
+- Type 3 detection: >90% precision (avoid suggesting LLM when inappropriate)
+
+**Risk Mitigation**:
+- Benchmark bias: Validate on proprietary codebases not in public training data
+- Model API changes: Abstract model interface, support multiple providers
+- Prompt brittleness: A/B test prompt variants, auto-select best performer per task type
+
+**ROI**: Immediate productivity gains for development teams. Systematic capability data enables targeted model architecture improvements addressing real bottlenecks rather than theoretical benchmarks.

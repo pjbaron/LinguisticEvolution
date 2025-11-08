@@ -1,0 +1,19 @@
+Neural probing of 7B models reveals algorithmic reasoning is actually pattern-matching over linguistic distributions—no symbolic manipulation circuits exist, only hierarchical token transformations. This creates a "planning-execution gap": models generate detailed implementation plans but cannot synthesize novel algorithmic primitives beyond training data, critically limiting game AI and computational science applications.
+
+Existing workarounds (hybrid symbolic systems, template restrictions, recursive planning) attempt to retrofit reasoning onto pattern-matching architectures—an architectural mismatch doomed to fail. We need capability-aligned development: systematically leveraging what LLMs actually do well.
+
+Practical implementation framework:
+
+**Phase 1: Capability Mapping (Weeks 1-2)**
+Benchmark 7B and 405B models on standardized tasks measuring: (a) analogical transfer between code domains, (b) pattern interpolation from partial examples, (c) hierarchical code structure transformation. Output: quantitative capability profiles identifying strength/weakness boundaries.
+
+**Phase 2: Task Taxonomy (Weeks 3-4)**
+Map 100 common programming tasks to capability profiles. Categorize as: (1) directly solvable via native pattern-matching, (2) decomposable into solvable subtasks, (3) fundamentally misaligned with LLM architectures. Output: decision tree for task-model matching.
+
+**Phase 3: Translation Tooling (Weeks 5-8)**
+Build prompt engineering library that auto-reformulates type-2 tasks into chained language-native operations. Example: "implement pathfinding" → "narrate graph traversal" → "convert narrative to pseudocode template" → "map template to syntax."
+
+**Phase 4: Validation (Weeks 9-10)**
+Deploy on real projects (game NPC behavior, scientific simulation). Measure: development time, bug rates, novel problem success rate vs traditional LLM usage.
+
+This delivers immediate ROI: developers ship faster by matching problems to model strengths, while generating empirical data to guide next-generation architecture design.

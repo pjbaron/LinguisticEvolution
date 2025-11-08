@@ -1,0 +1,45 @@
+Neural activation studies prove 7B models perform pattern-matching over linguistic distributions, not algorithmic reasoning—neural probes detect hierarchical token transformations but zero symbolic logic circuits. This architectural reality creates a "planning-execution gap": models excel at decomposing vague specs into detailed plans but fail when execution requires synthesizing novel algorithmic primitives outside training distributions.
+
+Current workarounds retrofit reasoning onto pattern-completion architectures—a fundamental mismatch. Instead, we propose capability-aligned development leveraging LLMs' actual computational strengths.
+
+**Implementation Roadmap**
+
+**Phase 1: Capability Profiling (2 weeks)**
+Create benchmark suite testing LLMs across model scales (7B, 70B, 405B):
+- *Analogical Transfer*: Measure code pattern transfer between domains (e.g., tree traversal → graph navigation). Metric: solution correctness when source domain differs from target.
+- *Pattern Interpolation*: Test generation quality from partial/corrupted examples. Metric: syntactic validity + semantic preservation.
+- *Hierarchical Transformation*: Evaluate refactoring capabilities (procedural→OOP, imperative→functional). Metric: output correctness vs structural complexity.
+
+Deliverable: JSON capability matrix with confidence intervals for each primitive at each model scale.
+
+**Phase 2: Task Classification Engine (2 weeks)**
+Build automated classifier analyzing 100 programming tasks:
+- Type 1 (Direct): Solvable via single pattern-match (e.g., "standard CRUD operations")
+- Type 2 (Decomposable): Solvable via primitive chains (e.g., "A* pathfinding" → narrative → pseudocode → syntax)
+- Type 3 (Misaligned): Requires true symbolic reasoning (e.g., novel compiler optimization)
+
+Deliverable: Python package with API: `classify_task(description) → (type, decomposition_strategy, confidence)`
+
+**Phase 3: Prompt Engineering Framework (4 weeks)**
+Develop auto-translation library converting Type 2 tasks into primitive chains:
+```python
+translator = TaskTranslator(model_scale="7B")
+chain = translator.decompose("implement Dijkstra's algorithm")
+# Output: [
+#   ("narrative", "describe shortest-path selection in weighted graph"),
+#   ("pseudocode", "convert narrative to template matching training examples"),
+#   ("syntax", "map template to Python via structure patterns")
+# ]
+code = translator.execute_chain(chain)
+```
+
+Deliverable: Open-source library with 20+ validated decomposition patterns.
+
+**Phase 4: Production Validation (2 weeks)**
+Deploy on real codebases: game AI (pathfinding, NPC behavior trees), scientific computing (simulation frameworks).
+Success metrics:
+- 40% reduction in development time for Type 1/2 tasks
+- 60% improvement in first-run correctness vs direct prompting
+- Quantified failure modes for Type 3 task detection
+
+**Immediate Value**: Teams deploy LLMs effectively now. Long-term: empirical data guides architecture research toward genuinely useful reasoning capabilities.
