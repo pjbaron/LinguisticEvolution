@@ -63,9 +63,10 @@ Refine the original proposition using this framing:
 Please improve it by:
 1. Making the core idea more clear and precise
 2. Highlighting the key insights or implications
-3. Removing any sentences that don't contribute value
+3. Advancing the core idea from a theoretical proposition towards a practical implementation
 4. Ensuring proper logical flow
-5. Adding your own insights (the colleague is a good friend and welcomes your input)
+5. Removing any sentences or excess verbiage that doesn't contribute value
+6. Adding your own further insights (the colleague is a good friend and welcomes your input)
 
 Output ONLY the improved proposition text (no meta-commentary)."
 
@@ -73,22 +74,22 @@ Save the refined version to: work/stage1_{timestamp}.txt
 
 **Stage 2:**
 Read the content from: work/stage1_{timestamp}.txt
-Now act as the expert again and apply the same 5-point refinement process to what you just read (treating it as a colleague's proposition).
+Now act as the expert again and apply the same 6-point refinement process to what you just read (treating it as a colleague's proposition).
 Save the result to: work/stage2_{timestamp}.txt
 
 **Stage 3:**
 Read the content from: work/stage2_{timestamp}.txt
-Apply the expert refinement process again (5 improvement points above).
+Apply the expert refinement process again (6 improvement points above).
 Save the result to: work/stage3_{timestamp}.txt
 
 **Stage 4:**
 Read the content from: work/stage3_{timestamp}.txt
-Apply the expert refinement process again (5 improvement points above).
+Apply the expert refinement process again (6 improvement points above).
 Save the result to: work/stage4_{timestamp}.txt
 
 **Stage 5:**
 Read the content from: work/stage4_{timestamp}.txt
-Apply the expert refinement process again (5 improvement points above).
+Apply the expert refinement process again (6 improvement points above). This is the final iteration, pay extra attention to the structure.
 Save the result to: work/stage5_{timestamp}.txt
 
 After completing all stages, show a brief summary describing:
@@ -96,25 +97,14 @@ After completing all stages, show a brief summary describing:
 - What major concepts or improvements were added
 - How the length/complexity changed
 
-**TASK 2: Evaluation (score 1-10 on each metric)**
-Evaluate the final refined version on these five metrics:
-- **Clarity:** How easy is it to understand the core claim?
-- **Coherence:** How logically consistent and well-structured is it?
-- **Novelty:** How original or non-obvious is the insight?
-- **Depth:** How substantive and intellectually rich is it?
-- **Precision:** How specific and well-defined are the terms?
-
-For each metric, provide both a score (1-10) and a one-sentence justification.
-Calculate the overall average score.
-
-**TASK 3: ELI Year 12 Summary**
+**TASK 2: ELI Year 12 Summary**
 Create a plain-language explanation suitable for a high school senior (age 17-18):
 - 2-3 paragraphs
 - Use accessible language and relatable examples
 - Explain technical terms when needed
 - Make it engaging and relevant
 
-**TASK 4: Save Results**
+**TASK 3: Save Results**
 Save all results to: outputs/proposition_{timestamp}.json
 
 Use this JSON structure:
@@ -133,27 +123,18 @@ Use this JSON structure:
     {{"stage": 5, "text": "...", "length": 133}}
   ],
   "final": "...",
-  "evaluation": {{
-    "clarity": {{"score": X, "justification": "..."}},
-    "coherence": {{"score": X, "justification": "..."}},
-    "novelty": {{"score": X, "justification": "..."}},
-    "depth": {{"score": X, "justification": "..."}},
-    "precision": {{"score": X, "justification": "..."}},
-    "overall": X.X
-  }},
   "eli_year12_summary": "..."
 }}
 
 Show me:
 - Brief preview of each refinement stage
-- All evaluation scores with justifications
 - The ELI Year 12 summary
 - Confirmation when saved"""
 
     print(request)
     print("\n" + "="*70)
     print("\n✅ Copy the text above and paste it to Claude Code!")
-    print("💡 This uses your FREE Claude Code credits, not API credits\n")
+    print("This uses your Claude Code free credits, not API credits\n")
 
 if __name__ == "__main__":
     main()
