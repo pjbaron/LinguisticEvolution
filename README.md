@@ -68,9 +68,38 @@ Propositions are:
 
 ## Pipeline Modes
 
-### Fully Automated Pipeline (process_proposition.py) ⭐ RECOMMENDED
+### Direct Claude Code (🆓 FREE) ⭐ RECOMMENDED
 
-**Zero human intervention - complete automation:**
+**Use your free Claude Code credits - NO API charges!**
+
+Just ask Claude Code directly in your conversation:
+
+```
+Process this proposition: [your proposition]
+Domain: [domain]
+
+Do 5 refinements, evaluate it, create an ELI Year 12 summary, and save to outputs/
+```
+
+**Benefits:**
+- 🆓 **FREE** - Uses your Claude Code credits (no API usage!)
+- 💬 **Interactive** - See reasoning, ask questions, adjust criteria
+- 📊 **Transparent** - Watch each refinement and evaluation step
+- ⚡ **Simple** - No scripts, no API keys, no setup needed
+
+**Optional helper script to format your request:**
+```bash
+python ask_claude.py
+# Copy/paste the formatted output to Claude Code
+```
+
+See **[CLAUDE_CODE_DIRECT.md](CLAUDE_CODE_DIRECT.md)** for full guide and examples.
+
+---
+
+### Fully Automated Pipeline (process_proposition.py)
+
+**For zero human interaction (uses paid API credits):**
 
 ```bash
 python process_proposition.py
@@ -80,48 +109,20 @@ Enter your proposition once, then everything happens automatically:
 - ✅ 5-stage iterative refinement
 - ✅ Multi-metric evaluation (clarity, coherence, novelty, depth, precision)
 - ✅ ELI Year 12 summary generation
-- ✅ Real-time progress display with emojis
-- ✅ Complete results saved to timestamped file
+- ✅ Real-time progress display
 
-**Example output:**
-```
-REFINEMENT (5 STAGES)
-----------------------------------------------------------------------
-  ✓ Stage 1/5 complete (234 chars)
-  ✓ Stage 2/5 complete (245 chars)
-  ...
-
-EVALUATION
-----------------------------------------------------------------------
-📊 Evaluation Scores:
-  Clarity       8/10 - The proposition clearly articulates...
-  Coherence     9/10 - Logically structured with consistent...
-  Overall      8.2/10
-
-ELI YEAR 12 SUMMARY
-----------------------------------------------------------------------
-[Plain language explanation displayed here]
-
-✅ Results saved to: outputs/proposition_20251101_143052.json
-```
-
-**Time:** ~10-15 seconds total (7 API calls)
+**Time:** ~10-15 seconds | **Cost:** 7 API calls ($$)
 
 ### Claude Code Interactive Workflow (claude_integrated_pipeline.py)
 
-**For when you want human-in-the-loop evaluation:**
+**Hybrid approach - script refinement + Claude Code evaluation:**
 
 ```bash
-# Step 1: Automated refinement
 python claude_integrated_pipeline.py
-
-# Step 2: Copy/paste prompt to Claude Code for evaluation
+# Then copy/paste prompt to Claude Code
 ```
 
-Useful when you want to:
-- See Claude Code's reasoning process
-- Adjust evaluation criteria interactively
-- Have conversational context
+**Cost:** 5 API calls for refinement ($$) + FREE Claude Code for evaluation
 
 See **[CLAUDE_CODE_WORKFLOW.md](CLAUDE_CODE_WORKFLOW.md)** for details.
 
