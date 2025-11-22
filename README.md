@@ -1,6 +1,27 @@
-# Random Proposition Generator
+# Linguistic Evolution
+
+Two complementary systems exploring iterative refinement through AI:
+
+## 1. Random Proposition Generator
 
 Generates meaningful-sounding but genuinely random propositions using true randomness and Claude LLM.
+
+## 2. Game Code Evolution (NEW!)
+
+Apply linguistic evolution to game development! Takes a brief game idea and evolves it through iterative refinement:
+- **Stage 1**: Simplest possible working version
+- **Stages 2+**: Fix weak code → improve features → add new features
+
+```bash
+python game_evolution/game_evolver.py
+# Enter game idea: "snake game"
+# Enter stages: 5
+# Watch your game evolve from minimal to polished!
+```
+
+**See [game_evolution/README.md](game_evolution/README.md) for full documentation.**
+
+---
 
 ## Features
 
