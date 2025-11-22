@@ -12,10 +12,15 @@ pre-planned multi-stage generation.
 """
 
 import os
+import sys
 import json
 import time
 from datetime import datetime
+from pathlib import Path
 from anthropic import Anthropic
+
+# Get the directory where this script is located
+SCRIPT_DIR = Path(__file__).parent.resolve()
 
 def get_client():
     """Initialize Anthropic client."""
@@ -50,33 +55,44 @@ def generate_stage1(client, game_idea, timestamp, delay):
 Game Idea: {game_idea}
 
 Requirements:
-1. Write complete, executable Python code
+1. Write complete, executable code
 2. Keep it as simple as possible while being playable
-3. Use only standard library (no external dependencies unless absolutely necessary)
+3. Use minimal dependencies (standard library preferred)
 4. Include clear instructions in comments at the top
-5. Make it text-based if the game idea allows (for simplicity)
-6. Focus on core gameplay loop only
+5. Focus on core gameplay loop only
 
-Output ONLY the Python code, no explanations or markdown. Start directly with the code."""
+Output ONLY the code, no explanations or markdown. Start directly with the code."""
 
     code = call_claude(client, prompt, delay)
 
     # Clean up markdown code blocks if present
     if code.startswith("```python"):
         code = code.split("```python")[1].split("```")[0].strip()
+    elif code.startswith("```html"):
+        code = code.split("```html")[1].split("```")[0].strip()
+    elif code.startswith("```javascript"):
+        code = code.split("```javascript")[1].split("```")[0].strip()
     elif code.startswith("```"):
         code = code.split("```")[1].split("```")[0].strip()
 
-    stage_file = f"game_evolution/stages/stage1_{timestamp}.py"
+    # Determine file extension based on content
+    if game_idea.lower().find("html") >= 0 or game_idea.lower().find("browser") >= 0:
+        ext = "html"
+    else:
+        ext = "py"
+
+    stage_file = SCRIPT_DIR / "stages" / f"stage1_{timestamp}.{ext}"
+    stage_file.parent.mkdir(parents=True, exist_ok=True)
+
     with open(stage_file, 'w') as f:
         f.write(code)
 
     print(f"✓ Stage 1 complete ({len(code)} chars)")
     print(f"  Saved to: {stage_file}")
 
-    return code
+    return code, ext
 
-def evolve_stage(client, stage_num, previous_code, timestamp, delay):
+def evolve_stage(client, stage_num, previous_code, timestamp, delay, ext):
     """Evolve the game code through improvement."""
     print(f"\n{'='*70}")
     print(f"STAGE {stage_num}: EVOLVING THE GAME")
@@ -86,7 +102,7 @@ def evolve_stage(client, stage_num, previous_code, timestamp, delay):
 
 Here is the current version of the game code:
 
-```python
+```
 {previous_code}
 ```
 
@@ -103,17 +119,21 @@ Guidelines:
 - Don't overcomplicate - stay focused
 - Ensure the game remains playable and fun
 
-Output ONLY the complete improved Python code, no explanations or markdown. Start directly with the code."""
+Output ONLY the complete improved code, no explanations or markdown. Start directly with the code."""
 
     code = call_claude(client, prompt, delay)
 
     # Clean up markdown code blocks if present
     if code.startswith("```python"):
         code = code.split("```python")[1].split("```")[0].strip()
+    elif code.startswith("```html"):
+        code = code.split("```html")[1].split("```")[0].strip()
+    elif code.startswith("```javascript"):
+        code = code.split("```javascript")[1].split("```")[0].strip()
     elif code.startswith("```"):
         code = code.split("```")[1].split("```")[0].strip()
 
-    stage_file = f"game_evolution/stages/stage{stage_num}_{timestamp}.py"
+    stage_file = SCRIPT_DIR / "stages" / f"stage{stage_num}_{timestamp}.{ext}"
     with open(stage_file, 'w') as f:
         f.write(code)
 
@@ -122,16 +142,18 @@ Output ONLY the complete improved Python code, no explanations or markdown. Star
 
     return code
 
-def save_evolution_record(game_idea, timestamp, num_stages, stages_data):
+def save_evolution_record(game_idea, timestamp, num_stages, stages_data, ext):
     """Save complete evolution record as JSON."""
-    output_file = f"game_evolution/games/game_{timestamp}.json"
+    output_file = SCRIPT_DIR / "games" / f"game_{timestamp}.json"
+    output_file.parent.mkdir(parents=True, exist_ok=True)
 
     record = {
         "metadata": {
             "timestamp": timestamp,
             "game_idea": game_idea,
             "total_stages": num_stages,
-            "evolution_date": datetime.now().isoformat()
+            "evolution_date": datetime.now().isoformat(),
+            "file_extension": ext
         },
         "stages": stages_data,
         "final_code": stages_data[-1]["code"],
@@ -187,7 +209,7 @@ def main():
     stages_data = []
 
     # Stage 1: Generate simplest version
-    code = generate_stage1(client, game_idea, timestamp, delay)
+    code, ext = generate_stage1(client, game_idea, timestamp, delay)
     stages_data.append({
         "stage": 1,
         "description": "Simplest working version",
@@ -197,7 +219,7 @@ def main():
 
     # Stages 2+: Evolve
     for stage_num in range(2, num_stages + 1):
-        code = evolve_stage(client, stage_num, code, timestamp, delay)
+        code = evolve_stage(client, stage_num, code, timestamp, delay, ext)
         stages_data.append({
             "stage": stage_num,
             "description": "Evolution iteration",
@@ -206,9 +228,11 @@ def main():
         })
 
     # Save final record
-    output_file = save_evolution_record(game_idea, timestamp, num_stages, stages_data)
+    output_file = save_evolution_record(game_idea, timestamp, num_stages, stages_data, ext)
 
     # Print summary
+    final_stage_file = SCRIPT_DIR / "stages" / f"stage{num_stages}_{timestamp}.{ext}"
+
     print(f"\n{'='*70}")
     print("EVOLUTION COMPLETE")
     print(f"{'='*70}")
@@ -217,9 +241,12 @@ def main():
     print(f"Code Growth: {stages_data[0]['length']} → {stages_data[-1]['length']} chars")
     print(f"Growth Factor: {stages_data[-1]['length'] / stages_data[0]['length']:.2f}x")
     print(f"\n✅ Final game saved to: {output_file}")
-    print(f"✅ All stages saved to: game_evolution/stages/")
+    print(f"✅ All stages saved to: {SCRIPT_DIR / 'stages'}/")
     print(f"\nTo play the final game:")
-    print(f"  python game_evolution/stages/stage{num_stages}_{timestamp}.py")
+    if ext == "html":
+        print(f"  Open in browser: {final_stage_file}")
+    else:
+        print(f"  python {final_stage_file}")
     print(f"{'='*70}\n")
 
 if __name__ == "__main__":
