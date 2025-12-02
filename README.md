@@ -1,13 +1,14 @@
 # Random Proposition Generator
 
-Generates meaningful-sounding but genuinely random propositions using true randomness and Claude LLM.
+Generates meaningful-sounding random propositions using randomness and Claude LLM to refine
+'sense' from 'nonsense'... sometimes.
 
 ## Features
 
-- **True Randomness**: Uses random.org API for atmospheric noise-based random numbers
-- **High-Quality Output**: Claude LLM ensures propositions are believable and coherent
-- **Dictionary Encoding**: Maps random numbers to words for seed concepts
+- **Dictionary Encoding**: Maps random numbers to words to colour the seed concepts
+- **High-Quality Output**: repeated refinement with Claude LLM ensures propositions are at least plausible and coherent
 - **Multiple Domains**: Randomly selects from 20+ academic fields
+- **True Randomness**: Uses random.org API for atmospheric noise-based random numbers
 - **Cryptographic Fallback**: Uses Python's `secrets` module if random.org is unavailable
 
 ## Setup
