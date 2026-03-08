@@ -3,6 +3,8 @@
 Generates meaningful-sounding random propositions using randomness and Claude LLM to refine
 'sense' from 'nonsense'... sometimes.
 
+Academic work: ([Ruan et al., Nature Communications 2026](https://www.nature.com/articles/s41467-026-70245-1)) has demonstrated that LLM creative generation from minimal context is a useful research direction. Their LiveIdeaBench shows that such capabilities are poorly predicted by standard intelligence metrics. This project attempts to explore the complementary question of whether iterative LLM refinement can actually synthesise coherent scientific propositions from genuinely random input.
+
 ## Features
 
 - **Dictionary Encoding**: Maps random numbers to words to colour the seed concepts
@@ -198,3 +200,5 @@ python proposition_pipeline.py 10 0.5
 - With 0.5s delay: ~50 minutes
 
 Note: Control pipeline runs batches sequentially, so you can stop/resume anytime.
+
+
